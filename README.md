@@ -1,5 +1,10 @@
 # SVEN Python Wrapper
 
+
+### Task list
+
+* write a basic python wrapper for very basic c++ code 
+
 ### Ideas
 
 * Make the most out of python object orientated
