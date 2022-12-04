@@ -1,5 +1,11 @@
 # SVEN Python Wrapper
 
+The wrapper will have three main goals:
+* to help users to run SEVN
+* to analyse the output of SEVN (at least, for "standard" analysis)
+* to produce some fancy plots.
+
+Since SEVN is written in C++, it will be essential to have a python wrapper, which might attract a much larger number of users. Once we have the wrapper, we can use it for a large  number of scientific applications.
 
 ### Task list
 
@@ -18,3 +24,4 @@
 https://intermediate-and-advanced-software-carpentry.readthedocs.io/en/latest/c++-wrapping.html  
 https://gitlab.com/sevncodes/sevn  
 https://gitlab.com/sevncodes/sevn/-/blob/SEVN/resources/SEVN_userguide.pdf  
+https://stem.elearning.unipd.it/course/view.php?id=3064
