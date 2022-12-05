@@ -21,7 +21,8 @@ Since SEVN is written in C++, it will be essential to have a python wrapper, whi
 * Simple plotting
  
 ### Resources
-https://intermediate-and-advanced-software-carpentry.readthedocs.io/en/latest/c++-wrapping.html  
-https://gitlab.com/sevncodes/sevn  
-https://gitlab.com/sevncodes/sevn/-/blob/SEVN/resources/SEVN_userguide.pdf  
-https://stem.elearning.unipd.it/course/view.php?id=3064
+* https://intermediate-and-advanced-software-carpentry.readthedocs.io/en/latest/c++-wrapping.html  
+* https://gitlab.com/sevncodes/sevn  
+* https://gitlab.com/sevncodes/sevn/-/blob/SEVN/resources/SEVN_userguide.pdf  
+* https://stem.elearning.unipd.it/course/view.php?id=3064
+* https://arrow.apache.org/docs/cpp/parquet.html
