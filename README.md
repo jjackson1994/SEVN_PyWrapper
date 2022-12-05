@@ -28,3 +28,4 @@ Since SEVN is written in C++, it will be essential to have a python wrapper, whi
 * https://docs.gitlab.com/ee/user/ssh.html 
 * https://stem.elearning.unipd.it/course/view.php?id=3064
 * https://arrow.apache.org/docs/cpp/parquet.html
+* https://realpython.com/python-bindings-overview/
