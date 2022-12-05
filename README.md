@@ -1,5 +1,6 @@
 # SVEN Python Wrapper
 
+## Project Outline
 The wrapper will have three main goals:
 * to help users to run SEVN
 * to analyse the output of SEVN (at least, for "standard" analysis)
