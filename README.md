@@ -20,6 +20,7 @@ Since SEVN is written in C++, it will be essential to have a python wrapper, whi
 * Easy plot capablity 
 * Function to read the spread files 
 * Simple plotting
+* default mood and user input. 
  
 ### Resources
 * https://intermediate-and-advanced-software-carpentry.readthedocs.io/en/latest/c++-wrapping.html  
