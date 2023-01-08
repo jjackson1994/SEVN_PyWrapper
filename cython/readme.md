@@ -7,3 +7,6 @@ To wrap create a [pyx file](https://github.com/jjackson1994/SVEN_py_wrapper/blob
 
 Example of a single wrapped function
 
+```Python
+python3 setup.py build_ext --inplace
+```
