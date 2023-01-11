@@ -13,7 +13,7 @@ python3 setup.py build_ext --inplace
 # the differences between def, cdef, cpdef:
 
 
-def: is dynamic define in python
+def: is a dynamic define in python
 
 cdef: is a static define in c/c++.
 
