@@ -146,7 +146,8 @@ Traceback (most recent call last)
 AttributeError: 'cython_particle.Particle' object has no attribute 'mass'
 
 
-#Furthermore, we can add new attributes to py_particle on the fly, !!!!!!!!but cy_particle is locked down!!!!!!!!!: (new attributes not allowed)
+#Furthermore, we can add new attributes to py_particle on the fly.
+#!!!!!!!!but cy_particle is locked down!!!!!!!!!: (new attributes not allowed)
 
 
 In [13]: py_particle.charge = 12.0
@@ -158,6 +159,47 @@ AttributeError: 'cython_particle.Particle' object has no attribute 'charge'
 
 
 ```
+#### in python classes every change and call is possible, but in cython attributes are private and not readable, and we can't add new attributes, since the extension is locked down and private.
+
+python class ---> a dictionary is allocated
+Cython extension ----> a private struct which can be accessible with the methods of a class.
+
+
+
+## what if we want to read or add(change) attributes:
+
+```Python
+
+#for reading only:
+cdef class Particle:
+    """Simple Particle extension type."""
+    cdef readonly double mass, position, velocity
+    # ...
+    
+    
+#for modifications:
+cdef class Particle:
+    """Simple Particle extension type."""
+    cdef public double mass
+    cdef readonly double position
+    cdef double velocity
+    # ...
+    
+    
+    
+   #Here we have made mass readable and writeable with public, position read-only, and velocity private.
+
+
+
+```
+
+###### These exist only to allow and control access from Python.
+
+
+
+
+
+
 
 
 
