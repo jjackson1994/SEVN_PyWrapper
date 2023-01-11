@@ -18,6 +18,7 @@ Cython can enhance Python classes as well. Before we learn the specifics, we mus
 
 
 In python everything is an objects nad an object has 3 things:
+
 1.identity: which distingushes the object from all others.
 
 2. value: data associated to it.
@@ -36,15 +37,16 @@ When we call methods on extension type instances, we are running compiled and st
 
 
 
-*** Usage-wise, built-in types behave just like regular Python classes defined with the class statement, and the Python type system treats built-in types just like regular classes.
+###### Usage-wise, built-in types behave just like regular Python classes defined with the class statement, and the Python type system treats built-in types just like regular classes.
 
 
 
-### how to make extensions in Cython:
+## how to make extensions in Cython:
 
 
 Consider a simple class meant to model particles. Each particle has a mass, an x position, and a velocity. A simple Particle class in pure Python would look something like:
 
+### The python class:
 
 ```Python
 class Particle(object): 
@@ -58,9 +60,104 @@ class Particle(object):
 ```
 
 
+###### This class can be defined in pure Python at the interpreted level, or it can be compiled by Cython. An instance of Particle has a mass, a position, and a velocity, and users can call its get_momentum method. All attributes are readable and writeable, and users are free to assign other attributes to Particle objects outside the class body.
+
+
+When we compile the Particle class to C with cython, the resulting class is just a regular Python class, not an extension type. When Cython compiles it to C, it is still imple‐ mented with general Python objects using dynamic dispatch for all operations. The generated code uses the Python/C API heavily and makes the same calls that the inter‐ preter would if this class were defined in pure Python. Because the interpreter overhead is removed, the Cython version of Particle will have a small performance boost. But it does not benefit from any static typing, so the Cython code still has to fall back on dynamic dispatch to resolve types at runtime.
 
 
 
+### The extension type :
+
+```Python
+cdef class Particle:
+  """Simple Particle extension type.""" 
+  cdef double mass, position, velocity
+  # ...
+```
+
+
+### The two additions:
+
+1. cdef is added befroe the class statement.
+
+2. the static cdef declarations are added in the class body, one for each instance attribute assigned to _init_. The _init_ and the get_momentum method remain unchanged.
+
+
+
+### We’ll put our cdef class Particle in a file cython_particle.pyx, and the regular class Particle in a file python_particle.py. Then, from IPython:
+
+
+```Python
+In [1]: import pyximport; pyximport.install()
+Out[1]: (None, <pyximport.pyximport.PyxImporter at 0x101c64290>)
+
+
+#Here we use pyximport to compile the cython_particle.pyx file automatically at import time. We can inspect the two Particle types.
+
+
+
+In [2]: import cython_particle
+In [3]: import python_particle
+
+
+
+
+
+In [4]: python_particle.Particle?
+
+Type:       type
+String Form:<class 'python_particle.Particle'>
+File:       [...]/python_particle.py
+Docstring:  Simple Particle type.
+Constructor information:
+Definition:python_particle.Particle(self, m, p, v)
+
+
+
+In [5]: cython_particle.Particle?
+
+Type:       type
+String Form:<type 'cython_particle.Particle'>
+File:       [...]/cython_particle.so
+Docstring:  Simple Particle extension type.
+
+#And we see that, besides the fact that the Cython version comes from a compiled library, they are very similar.
+
+
+
+
+
+#The two types have identical initializers, so creation is the same:
+In [6]: py_particle = python_particle.Particle(1.0, 2.0, 3.0)
+In [7]: cy_particle = cython_particle.Particle(1.0, 2.0, 3.0)
+
+
+
+#We can access all of the py_particle’s attributes:
+In [10]: py_particle.mass, py_particle.position, py_particle.velocity
+Out[10]: (1.0, 2.0, 3.0)
+
+
+#!!!!!!!!!but none of cy_particle’s!!!!!!!!!: (not readable)
+In [11]: cy_particle.mass, cy_particle.position, cy_particle.velocity
+Traceback (most recent call last)
+[...]
+AttributeError: 'cython_particle.Particle' object has no attribute 'mass'
+
+
+#Furthermore, we can add new attributes to py_particle on the fly, !!!!!!!!but cy_particle is locked down!!!!!!!!!: (new attributes not allowed)
+
+
+In [13]: py_particle.charge = 12.0
+In [14]: cy_particle.charge = 12.0
+Traceback (most recent call last)
+[...]
+AttributeError: 'cython_particle.Particle' object has no attribute 'charge'
+
+
+
+```
 
 
 
