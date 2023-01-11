@@ -43,7 +43,7 @@ When we call methods on extension type instances, we are running compiled and st
 ### how to make extensions in Cython:
 
 
-Consider a simple class meant to model particles. Each particle has a mass, an x position, and a velocity. A simple Particle class in Python would look something like:
+Consider a simple class meant to model particles. Each particle has a mass, an x position, and a velocity. A simple Particle class in pure Python would look something like:
 
 
 ```Python
@@ -56,6 +56,9 @@ class Particle(object):
   def get_momentum(self):
             return self.mass * self.velocity
 ```
+
+
+
 
 
 
