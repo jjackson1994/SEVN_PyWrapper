@@ -10,6 +10,20 @@ Example of a single wrapped function
 ```Python
 python3 setup.py build_ext --inplace
 ```
+# the differences between def, cdef, cpdef:
+
+
+def: is dynamic define in python
+
+cdef: is a static define in c/c++.
+
+cpdef: if we define a function with cpdef, it both creates the c-level function and the python wrapper automatically, which can be called from python as well. when we call it in Cython we call the c-only version, while from python, the wrapper is called with underneath c/c++ performance.
+
+#### its arguments and returns should be compatible with both python and c types.
+
+
+#### Any python object can be represented at the c-levels, but not all c-types can be represented in Python. so we cannot use void, c pointers, or C arrays as the arguments or return types in cpdef functions.
+
 
 
 # Cython extension types and Pure python classes:
