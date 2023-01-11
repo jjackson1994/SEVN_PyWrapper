@@ -19,7 +19,8 @@ Cython can enhance Python classes as well. Before we learn the specifics, we mus
 
 In python everything is an objects nad an object has 3 things:
 
-1.identity: which distingushes the object from all others.
+
+1. identity: which distingushes the object from all others.
 
 2. value: data associated to it.
 
