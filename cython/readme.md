@@ -37,7 +37,7 @@ When we call methods on extension type instances, we are running compiled and st
 
 
 
-###### Usage-wise, built-in types behave just like regular Python classes defined with the class statement, and the Python type system treats built-in types just like regular classes.
+##### Usage-wise, built-in types behave just like regular Python classes defined with the class statement, and the Python type system treats built-in types just like regular classes.
 
 
 
@@ -60,7 +60,7 @@ class Particle(object):
 ```
 
 
-###### This class can be defined in pure Python at the interpreted level, or it can be compiled by Cython. An instance of Particle has a mass, a position, and a velocity, and users can call its get_momentum method. All attributes are readable and writeable, and users are free to assign other attributes to Particle objects outside the class body.
+##### This class can be defined in pure Python at the interpreted level, or it can be compiled by Cython. An instance of Particle has a mass, a position, and a velocity, and users can call its get_momentum method. All attributes are readable and writeable, and users are free to assign other attributes to Particle objects outside the class body.
 
 
 When we compile the Particle class to C with cython, the resulting class is just a regular Python class, not an extension type. When Cython compiles it to C, it is still imple‐ mented with general Python objects using dynamic dispatch for all operations. The generated code uses the Python/C API heavily and makes the same calls that the inter‐ preter would if this class were defined in pure Python. Because the interpreter overhead is removed, the Cython version of Particle will have a small performance boost. But it does not benefit from any static typing, so the Cython code still has to fall back on dynamic dispatch to resolve types at runtime.
@@ -162,6 +162,9 @@ AttributeError: 'cython_particle.Particle' object has no attribute 'charge'
 #### in python classes every change and call is possible, but in cython attributes are private and not readable, and we can't add new attributes, since the extension is locked down and private.
 
 python class ---> a dictionary is allocated
+
+
+
 Cython extension ----> a private struct which can be accessible with the methods of a class.
 
 
@@ -193,7 +196,7 @@ cdef class Particle:
 
 ```
 
-###### These exist only to allow and control access from Python.
+##### These exist only to allow and control access from Python.
 
 
 
