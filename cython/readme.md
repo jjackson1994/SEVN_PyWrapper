@@ -10,6 +10,22 @@ Example of a single wrapped function
 ```Python
 python3 setup.py build_ext --inplace
 ```
+
+# or
+### Use pyximport for interactive compilation of Cython file in any notebooks.
+
+
+# Cython in jupyter notebook
+
+```Python
+%load_ext cython 
+```
+
+```Python
+%%cython
+#write dow the cython code here.
+```
+
 # the differences between def, cdef, cpdef:
 
 
