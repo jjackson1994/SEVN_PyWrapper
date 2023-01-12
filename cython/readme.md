@@ -12,8 +12,11 @@ python3 setup.py build_ext --inplace
 ```
 
 # or
-### Use pyximport for interactive compilation of Cython file in any notebooks.
+#### Use pyximport for interactive compilation of Cython file in any notebooks.
 
+```Python
+import pyximport; pyximport.install()
+```
 
 # Cython in jupyter notebook
 
