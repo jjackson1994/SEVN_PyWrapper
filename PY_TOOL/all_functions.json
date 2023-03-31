@@ -1,0 +1,4203 @@
+{
+  "main": {
+    "type:": "int",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/hdf5_interpreter/python_cxx/main.cpp",
+    "lines": [
+      9,
+      31
+    ]
+  },
+  "IO::load": {
+    "type:": "void",
+    "params": [
+      "intn",
+      " char **val"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/IO.cpp",
+    "lines": [
+      35,
+      111
+    ]
+  },
+  "IO::load_tables": {
+    "type:": "void",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/IO.cpp",
+    "lines": [
+      113,
+      122
+    ]
+  },
+  "IO::load_stars": {
+    "type:": "void",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/IO.cpp",
+    "lines": [
+      127,
+      155
+    ]
+  },
+  "IO::read": {
+    "type:": "void",
+    "params": [
+      "std::vector<std::vector<std::vector<std::vector<double>>>>&tables",
+      " const std::string& tables_dir",
+      " const std::vector<std::string>& zstring",
+      " std::vector<double>& Z"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/IO.cpp",
+    "lines": [
+      157,
+      241
+    ]
+  },
+  "IO::inspect_tables": {
+    "type:": "void",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/IO.cpp",
+    "lines": [
+      243,
+      296
+    ]
+  },
+  "IO::print_output": {
+    "type:": "void",
+    "params": [
+      "std::vector<std::vector<double>>&printmatrix",
+      " const std::string &_name",
+      " const unsigned long &_rseed",
+      " const size_t &_ID",
+      " const bool binaryprint"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/IO.cpp",
+    "lines": [
+      298,
+      324
+    ]
+  },
+  "IO::print_list_summary": {
+    "type:": "void",
+    "params": [
+      "std::ofstream&outstream",
+      " std::string basename",
+      " const std::string &_name",
+      " const unsigned long &_rseed",
+      " const size_t &_ID"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/IO.cpp",
+    "lines": [
+      334,
+      397
+    ]
+  },
+  "IO::print_evolved_summary": {
+    "type:": "void",
+    "params": [
+      "conststd::string &_name",
+      " const unsigned long &_rseed",
+      " const size_t &_ID"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/IO.cpp",
+    "lines": [
+      407,
+      409
+    ]
+  },
+  "IO::print_failed_summary": {
+    "type:": "void",
+    "params": [
+      "conststd::string &_name",
+      " const unsigned long &_rseed",
+      " const size_t &_ID"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/IO.cpp",
+    "lines": [
+      411,
+      413
+    ]
+  },
+  "IO::print_failed_initilisation_summary": {
+    "type:": "void",
+    "params": [
+      "constsize_t &_ID"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/IO.cpp",
+    "lines": [
+      415,
+      417
+    ]
+  },
+  "IO::print_hdf5": {
+    "type:": "void",
+    "params": [
+      "std::vector<std::vector<double>>&printmatrix",
+      " const std::string &_name",
+      " const bool binaryprint"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/IO.cpp",
+    "lines": [
+      423,
+      442
+    ]
+  },
+  "IO::print_formatted_ascii": {
+    "type:": "void",
+    "params": [
+      "conststd::string &filename",
+      "std::vector<std::vector<double>> &printmatrix",
+      " const std::string &_name",
+      " _UNUSED const unsigned long &_rseed",
+      " const size_t &_ID",
+      " const bool binaryprint",
+      " const std::string &separator",
+      " const size_t &_w_id",
+      " const size_t &_w_name",
+      " const size_t &_w_header",
+      " const size_t &_precision",
+      " const std::string &comment=\"#\""
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/IO.cpp",
+    "lines": [
+      446,
+      546
+    ]
+  },
+  "IO::print_ascii": {
+    "type:": "void",
+    "params": [
+      "std::vector<std::vector<double>>&printmatrix",
+      " const std::string &_name",
+      " const unsigned long &_rseed",
+      " const size_t &_ID",
+      " const bool binaryprint"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/IO.cpp",
+    "lines": [
+      551,
+      560
+    ]
+  },
+  "IO::print_csv": {
+    "type:": "void",
+    "params": [
+      "std::vector<std::vector<double>>&printmatrix",
+      " const std::string &_name",
+      " const unsigned long &_rseed",
+      " const size_t &_ID",
+      " const bool binaryprint"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/IO.cpp",
+    "lines": [
+      565,
+      575
+    ]
+  },
+  "IO::print_bin": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDstd::vector<std::vector<double>> &printmatrix",
+      " _UNUSED const std::string &_name",
+      " _UNUSED const unsigned long &_rseed",
+      " _UNUSED const size_t &_ID",
+      " _UNUSED const bool binaryprint"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/IO.cpp",
+    "lines": [
+      580,
+      584
+    ]
+  },
+  "IO::columns_to_print": {
+    "type:": "void",
+    "params": [
+      "std::string&list_cols",
+      " std::vector<std::string> &printcolumns"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/IO.cpp",
+    "lines": [
+      586,
+      652
+    ]
+  },
+  "IO::print_log": {
+    "type:": "void",
+    "params": [
+      "std::stringfilename"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/IO.cpp",
+    "lines": [
+      654,
+      667
+    ]
+  },
+  "IO::log_put": {
+    "type:": "void",
+    "params": [
+      "std::string&loginfo"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/IO.cpp",
+    "lines": [
+      669,
+      675
+    ]
+  },
+  "IO::print_timelog": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/IO.cpp",
+    "lines": [
+      680,
+      695
+    ]
+  },
+  "SEVNpar::default_value_num": {
+    "type:": "int",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/params.cpp",
+    "lines": [
+      53,
+      168
+    ]
+  },
+  "SEVNpar::default_value_str": {
+    "type:": "int",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/params.cpp",
+    "lines": [
+      170,
+      240
+    ]
+  },
+  "SEVNpar::default_value_bool": {
+    "type:": "int",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/params.cpp",
+    "lines": [
+      242,
+      301
+    ]
+  },
+  "SEVNpar::load": {
+    "type:": "int",
+    "params": [
+      "intn",
+      " char **val",
+      " bool initialise"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/params.cpp",
+    "lines": [
+      305,
+      332
+    ]
+  },
+  "utilities::maxwellian_cdf": {
+    "type:": "double",
+    "params": [
+      "doublex",
+      " double sigma"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/utils/utilities.cpp",
+    "lines": [
+      30,
+      33
+    ]
+  },
+  "utilities::maxwellian_pdf": {
+    "type:": "double",
+    "params": [
+      "doublex",
+      " double sigma"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/utils/utilities.cpp",
+    "lines": [
+      35,
+      38
+    ]
+  },
+  "utilities::roche_lobe_Eg": {
+    "type:": "double",
+    "params": [
+      "doubleMass_primary",
+      " double Mass_secondary",
+      " double a"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/utils/utilities.cpp",
+    "lines": [
+      41,
+      52
+    ]
+  },
+  "utilities::R_Alfven": {
+    "type:": "double",
+    "params": [
+      "Star*s",
+      " double dMdt",
+      " bool get0"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/utils/utilities.cpp",
+    "lines": [
+      55,
+      71
+    ]
+  },
+  "utilities::get_current_time": {
+    "type:": "double",
+    "params": [
+      "Binstar*b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/utils/utilities.cpp",
+    "lines": [
+      91,
+      93
+    ]
+  },
+  "utilities::Hfrac": {
+    "type:": "double",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/utils/utilities.cpp",
+    "lines": [
+      120,
+      123
+    ]
+  },
+  "utilities::dMdt_Eddington_accretion": {
+    "type:": "double",
+    "params": [
+      "Star*donor",
+      " Star *accretor",
+      " double eddfact"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/utils/utilities.cpp",
+    "lines": [
+      125,
+      139
+    ]
+  },
+  "utilities::smallestSignificativeStep": {
+    "type:": "double",
+    "params": [
+      "doublex"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/utils/utilities.cpp",
+    "lines": [
+      150,
+      153
+    ]
+  },
+  "sevnstd::SevnLogging::set_level": {
+    "type:": "void",
+    "params": [
+      "std::stringlevel"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/general/utils/sevnlog.cpp",
+    "lines": [
+      29,
+      49
+    ]
+  },
+  "sevnstd::H5out::print": {
+    "type:": "void",
+    "params": [
+      "std::vector<std::string>&columns",
+      " std::vector<std::vector<double>> &printmatrix",
+      " const std::string &_name"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/h5out/H5out.cpp",
+    "lines": [
+      10,
+      52
+    ]
+  },
+  "sevnstd::H5out::print_header": {
+    "type:": "void",
+    "params": [
+      "std::vector<std::string>&columns"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/h5out/H5out.cpp",
+    "lines": [
+      54,
+      112
+    ]
+  },
+  "Binstar::evolve_binary": {
+    "type:": "bse_evolution",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/binstar.cpp",
+    "lines": [
+      19,
+      224
+    ]
+  },
+  "Binstar::synchronise_dt_star": {
+    "type:": "void",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/binstar.cpp",
+    "lines": [
+      226,
+      248
+    ]
+  },
+  "Binstar::check_and_sync_sse": {
+    "type:": "void",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/binstar.cpp",
+    "lines": [
+      250,
+      280
+    ]
+  },
+  "Binstar::check_and_sync_bse": {
+    "type:": "void",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/binstar.cpp",
+    "lines": [
+      282,
+      359
+    ]
+  },
+  "Binstar::check_and_set_bavera_xspin": {
+    "type:": "void",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/binstar.cpp",
+    "lines": [
+      361,
+      378
+    ]
+  },
+  "Binstar::update_derived_properties_star": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/binstar.cpp",
+    "lines": [
+      436,
+      444
+    ]
+  },
+  "Binstar::check_accretion_on_compact": {
+    "type:": "sn_explosion",
+    "params": [
+      "size_tdonorID",
+      " size_t accretorID",
+      " double DMaccreted"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/binstar.cpp",
+    "lines": [
+      447,
+      500
+    ]
+  },
+  "Binstar::init": {
+    "type:": "void",
+    "params": [
+      "conststd::vector<std::string> &params"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/binstar.cpp",
+    "lines": [
+      509,
+      582
+    ]
+  },
+  "Binstar::call_stars_constructor": {
+    "type:": "void",
+    "params": [
+      "std::vector<std::string>&params_star1",
+      " std::vector<std::string> &params_star2"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/binstar.cpp",
+    "lines": [
+      584,
+      605
+    ]
+  },
+  "Binstar::init_stars": {
+    "type:": "void",
+    "params": [
+      "conststd::vector<std::string> &params"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/binstar.cpp",
+    "lines": [
+      607,
+      625
+    ]
+  },
+  "Binstar::init_stars_legacy": {
+    "type:": "void",
+    "params": [
+      "conststd::vector<std::string> &params"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/binstar.cpp",
+    "lines": [
+      627,
+      648
+    ]
+  },
+  "Binstar::init_other_params": {
+    "type:": "void",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/binstar.cpp",
+    "lines": [
+      650,
+      709
+    ]
+  },
+  "Binstar::limit_and_correct_mass_transfer_for_donor_from_binary": {
+    "type:": "void",
+    "params": [
+      "Star*donor",
+      " Star *accretor",
+      " std::size_t mass_limiting_property_id"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/binstar.cpp",
+    "lines": [
+      711,
+      858
+    ]
+  },
+  "Binstar::check_nakedHe_or_nakedCO_after_binary_evolution": {
+    "type:": "void",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/binstar.cpp",
+    "lines": [
+      860,
+      977
+    ]
+  },
+  "Binstar::check_AngMomSpin_after_binary_evolution": {
+    "type:": "void",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/binstar.cpp",
+    "lines": [
+      979,
+      991
+    ]
+  },
+  "Binstar::Radx": {
+    "type:": "double",
+    "params": [
+      "size_tstarID"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/binstar.cpp",
+    "lines": [
+      998,
+      1010
+    ]
+  },
+  "Hurley_winds::DA": {
+    "type:": "double",
+    "params": [
+      "Binstar*b",
+      " int procID"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      25,
+      51
+    ]
+  },
+  "Hurley_winds::DE": {
+    "type:": "double",
+    "params": [
+      "Binstar*b",
+      " int procID"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      53,
+      76
+    ]
+  },
+  "Orbital_change_Tides::compute_tconv_rasio96": {
+    "type:": "double",
+    "params": [
+      "Star*star_wtides",
+      " _UNUSED Binstar *b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      105,
+      133
+    ]
+  },
+  "Orbital_change_Tides::compute_tconv_pwheel18": {
+    "type:": "double",
+    "params": [
+      "Star*star_wtides",
+      " _UNUSED Binstar *b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      135,
+      146
+    ]
+  },
+  "Orbital_change_Tides::compute_kt_zahn_conv": {
+    "type:": "double",
+    "params": [
+      "Star*star_wtides",
+      " _UNUSED Binstar *binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      173,
+      197
+    ]
+  },
+  "Orbital_change_Tides::compute_kt_zahn_rad": {
+    "type:": "double",
+    "params": [
+      "Star*star_wtides",
+      " Star *star_pert",
+      " Binstar *binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      202,
+      219
+    ]
+  },
+  "Orbital_change_Tides::dadt_hut": {
+    "type:": "double",
+    "params": [
+      "Star*star_wtides",
+      " Star *star_pert",
+      " Binstar *binstar",
+      " double kt",
+      " double spin"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      222,
+      243
+    ]
+  },
+  "Orbital_change_Tides::dedt_hut": {
+    "type:": "double",
+    "params": [
+      "Star*star_wtides",
+      " Star *star_pert",
+      " Binstar *binstar",
+      " double kt",
+      " double spin"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      245,
+      263
+    ]
+  },
+  "Orbital_change_Tides::dspindt_hut": {
+    "type:": "double",
+    "params": [
+      "Star*star_wtides",
+      " Star *star_pert",
+      " Binstar *binstar",
+      " double kt",
+      " double spin"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      265,
+      288
+    ]
+  },
+  "Tides_simple::init": {
+    "type:": "void",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      291,
+      370
+    ]
+  },
+  "Tides_simple::DA": {
+    "type:": "double",
+    "params": [
+      "_UNUSEDBinstar *binstar",
+      " _UNUSED int procID"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      372,
+      375
+    ]
+  },
+  "Tides_simple::DE": {
+    "type:": "double",
+    "params": [
+      "_UNUSEDBinstar *binstar",
+      " _UNUSED int procID"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      377,
+      379
+    ]
+  },
+  "Tides_simple::DAngMomSpin": {
+    "type:": "double",
+    "params": [
+      "_UNUSEDBinstar *b",
+      " _UNUSED int procID",
+      " int starID"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      381,
+      383
+    ]
+  },
+  "Peters_gw::DE": {
+    "type:": "double",
+    "params": [
+      "Binstar*b",
+      " _UNUSED int procID"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      420,
+      436
+    ]
+  },
+  "Peters_gw::DA": {
+    "type:": "double",
+    "params": [
+      "Binstar*b",
+      " _UNUSED int procID"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      438,
+      453
+    ]
+  },
+  "Orbital_change_RL::estimate_q": {
+    "type:": "double",
+    "params": [
+      "Star*donor",
+      " Star *accretor"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      475,
+      477
+    ]
+  },
+  "Orbital_change_RL::Hfrac": {
+    "type:": "double",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      479,
+      482
+    ]
+  },
+  "Orbital_change_RL::dMdt_eddington": {
+    "type:": "double",
+    "params": [
+      "Star*donor",
+      " Star *accretor",
+      " Binstar *b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      484,
+      486
+    ]
+  },
+  "Orbital_change_RL::kelvin_helmotz_tscale": {
+    "type:": "double",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      489,
+      505
+    ]
+  },
+  "Orbital_change_RL::dynamic_tscale": {
+    "type:": "double",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      507,
+      517
+    ]
+  },
+  "Orbital_change_RL::speciale_evolve": {
+    "type:": "int",
+    "params": [
+      "_UNUSEDBinstar *b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      521,
+      523
+    ]
+  },
+  "Hurley_rl::init_common_variable": {
+    "type:": "void",
+    "params": [
+      "Star*donor_star",
+      " Star *accretor_star",
+      " Binstar *b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      527,
+      559
+    ]
+  },
+  "Hurley_rl::init": {
+    "type:": "void",
+    "params": [
+      "Binstar*b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      561,
+      635
+    ]
+  },
+  "Hurley_rl::outcome_double_RLO": {
+    "type:": "int",
+    "params": [
+      "Binstar*b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      707,
+      725
+    ]
+  },
+  "Hurley_rl::outcome_collision": {
+    "type:": "int",
+    "params": [
+      "Star*donor",
+      " Star *accretor",
+      " _UNUSED Binstar *b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      745,
+      758
+    ]
+  },
+  "Hurley_rl::RLO": {
+    "type:": "void",
+    "params": [
+      "Binstar*b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      761,
+      919
+    ]
+  },
+  "Hurley_rl::set_orbital": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDBinstar *b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      921,
+      1042
+    ]
+  },
+  "Hurley_rl::DA": {
+    "type:": "double",
+    "params": [
+      "_UNUSEDBinstar *b",
+      " _UNUSED int procID"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      1044,
+      1045
+    ]
+  },
+  "Hurley_rl::DE": {
+    "type:": "double",
+    "params": [
+      "_UNUSEDBinstar *b",
+      " _UNUSED int procID"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      1055,
+      1056
+    ]
+  },
+  "Hurley_rl::DAngMomSpin": {
+    "type:": "double",
+    "params": [
+      "_UNUSEDBinstar *b",
+      " _UNUSED int procID",
+      " int starID"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      1057,
+      1059
+    ]
+  },
+  "Hurley_rl::dynamic_swallowing": {
+    "type:": "int",
+    "params": [
+      "_UNUSEDBinstar *b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      1063,
+      1114
+    ]
+  },
+  "Hurley_rl::dynamic_dmdt": {
+    "type:": "double",
+    "params": [
+      "Star*s",
+      " _UNUSED Binstar *b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      1116,
+      1124
+    ]
+  },
+  "Hurley_rl::nuclear_dmdt": {
+    "type:": "double",
+    "params": [
+      "Star *s",
+      " Binstar *b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      1126,
+      1149
+    ]
+  },
+  "Hurley_rl::thermal_dmdt": {
+    "type:": "double",
+    "params": [
+      "Star *s",
+      " _UNUSED Binstar *b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      1151,
+      1160
+    ]
+  },
+  "Hurley_rl::thermal_nuclear_accreted_mass": {
+    "type:": "double",
+    "params": [
+      "doubleDM_donor",
+      " Star *donor",
+      " Star *accretor",
+      " Binstar *b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      1162,
+      1219
+    ]
+  },
+  "Hurley_rl::fRL_radius": {
+    "type:": "double",
+    "params": [
+      "Star*star",
+      " Binstar *b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      1221,
+      1233
+    ]
+  },
+  "Hurley_rl_bse::thermal_nuclear_accreted_mass": {
+    "type:": "double",
+    "params": [
+      "doubleDM_donor",
+      " Star *donor",
+      " Star *accretor",
+      " Binstar *b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      1237,
+      1304
+    ]
+  },
+  "Hurley_rl_bse::dynamic_swallowing": {
+    "type:": "int",
+    "params": [
+      "Binstar*b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      1306,
+      1356
+    ]
+  },
+  "Hurley_mod_rl::set_orbital": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDBinstar *b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      1362,
+      1490
+    ]
+  },
+  "Hurley_SNKicks::init": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDBinstar *b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      1521,
+      1540
+    ]
+  },
+  "Hurley_SNKicks::DA": {
+    "type:": "double",
+    "params": [
+      "_UNUSEDBinstar *b",
+      " _UNUSED int procID"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      1542,
+      1543
+    ]
+  },
+  "Hurley_SNKicks::kick_star": {
+    "type:": "int",
+    "params": [
+      "Star*sn",
+      " Star *other",
+      " Binstar *binstar",
+      " double& a_fin",
+      " double& ecc_fin"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Orbit.cpp",
+    "lines": [
+      1545,
+      1698
+    ]
+  },
+  "MaccretionProcess::handle_NS_massaccretion": {
+    "type:": "void",
+    "params": [
+      "Binstar*b",
+      " Star *s",
+      " double DM"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Processes.cpp",
+    "lines": [
+      96,
+      101
+    ]
+  },
+  "SNKicks::special_evolve": {
+    "type:": "int",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Processes.cpp",
+    "lines": [
+      107,
+      160
+    ]
+  },
+  "GWrad::evolve": {
+    "type:": "int",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Processes.cpp",
+    "lines": [
+      188,
+      235
+    ]
+  },
+  "Windaccretion::accrete_mass": {
+    "type:": "int",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Processes.cpp",
+    "lines": [
+      241,
+      345
+    ]
+  },
+  "Windaccretion::evolve": {
+    "type:": "int",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Processes.cpp",
+    "lines": [
+      347,
+      363
+    ]
+  },
+  "Tides::evolve": {
+    "type:": "int",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Processes.cpp",
+    "lines": [
+      370,
+      391
+    ]
+  },
+  "RocheLobe::evolve": {
+    "type:": "int",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Processes.cpp",
+    "lines": [
+      398,
+      512
+    ]
+  },
+  "RocheLobe::special_evolve": {
+    "type:": "int",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Processes.cpp",
+    "lines": [
+      515,
+      643
+    ]
+  },
+  "RocheLobe::reset_dMcumul_RLO_in_stars": {
+    "type:": "int",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Processes.cpp",
+    "lines": [
+      759,
+      767
+    ]
+  },
+  "Mix::special_evolve": {
+    "type:": "int",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Processes.cpp",
+    "lines": [
+      773,
+      900
+    ]
+  },
+  "CommonEnvelope::special_evolve": {
+    "type:": "int",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Processes.cpp",
+    "lines": [
+      934,
+      1063
+    ]
+  },
+  "CommonEnvelope::init": {
+    "type:": "int",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Processes.cpp",
+    "lines": [
+      1065,
+      1128
+    ]
+  },
+  "CommonEnvelope::whoisprimary": {
+    "type:": "int",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Processes.cpp",
+    "lines": [
+      1130,
+      1191
+    ]
+  },
+  "CommonEnvelope::lose_the_envelope": {
+    "type:": "int",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Processes.cpp",
+    "lines": [
+      1417,
+      1444
+    ]
+  },
+  "CommonEnvelope::final_mass_after_coalescence": {
+    "type:": "double",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/Processes.cpp",
+    "lines": [
+      1447,
+      1543
+    ]
+  },
+  "BinaryProperty::evolve": {
+    "type:": "int",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/BinaryProperty.cpp",
+    "lines": [
+      12,
+      40
+    ]
+  },
+  "Semimajor::check_boundaries": {
+    "type:": "void",
+    "params": [
+      "double*val",
+      " Binstar *binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/BinaryProperty.cpp",
+    "lines": [
+      60,
+      74
+    ]
+  },
+  "Eccentricity::evolve": {
+    "type:": "int",
+    "params": [
+      "_UNUSEDBinstar *binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/BinaryProperty.cpp",
+    "lines": [
+      76,
+      82
+    ]
+  },
+  "Eccentricity::check_boundaries": {
+    "type:": "void",
+    "params": [
+      "double*val",
+      " _UNUSED Binstar *binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/BinaryProperty.cpp",
+    "lines": [
+      84,
+      93
+    ]
+  },
+  "dadt::evolve": {
+    "type:": "int",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/BinaryProperty.cpp",
+    "lines": [
+      95,
+      106
+    ]
+  },
+  "dedt::evolve": {
+    "type:": "int",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/BinaryProperty.cpp",
+    "lines": [
+      108,
+      112
+    ]
+  },
+  "BTimestep::evolve": {
+    "type:": "int",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/BinaryProperty.cpp",
+    "lines": [
+      114,
+      383
+    ]
+  },
+  "BTimestep::max_timestep": {
+    "type:": "double",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/BinaryProperty.cpp",
+    "lines": [
+      385,
+      391
+    ]
+  },
+  "BTimestep::check_dt_limits": {
+    "type:": "void",
+    "params": [
+      "double&dt",
+      " Binstar *binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/BinaryProperty.cpp",
+    "lines": [
+      636,
+      644
+    ]
+  },
+  "BTimestep::tiny_dt": {
+    "type:": "double",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/BinaryProperty.cpp",
+    "lines": [
+      646,
+      663
+    ]
+  },
+  "BWorldtime::special_evolve": {
+    "type:": "int",
+    "params": [
+      "_UNUSEDBinstar *binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/BinaryProperty.cpp",
+    "lines": [
+      668,
+      674
+    ]
+  },
+  "AngMom::evolve": {
+    "type:": "int",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/BinaryProperty.cpp",
+    "lines": [
+      676,
+      693
+    ]
+  },
+  "Period::evolve": {
+    "type:": "int",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/BinaryProperty.cpp",
+    "lines": [
+      695,
+      707
+    ]
+  },
+  "GWtime::evolve": {
+    "type:": "int",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/BinaryProperty.cpp",
+    "lines": [
+      709,
+      742
+    ]
+  },
+  "_RL::RL_Eg": {
+    "type:": "double",
+    "params": [
+      "Star*primary",
+      " Star* secondary",
+      " Binstar* b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/BinaryProperty.cpp",
+    "lines": [
+      744,
+      748
+    ]
+  },
+  "RL0::evolve": {
+    "type:": "int",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/BinaryProperty.cpp",
+    "lines": [
+      750,
+      762
+    ]
+  },
+  "RL1::evolve": {
+    "type:": "int",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/BinaryProperty.cpp",
+    "lines": [
+      764,
+      776
+    ]
+  },
+  "BEvent::special_evolve": {
+    "type:": "int",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/BinaryProperty.cpp",
+    "lines": [
+      778,
+      804
+    ]
+  },
+  "Qcrit::qcrit_Hurley": {
+    "type:": "double",
+    "params": [
+      "Star*donor",
+      " _UNUSED Star *accretor"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/qcrit.cpp",
+    "lines": [
+      44,
+      72
+    ]
+  },
+  "Qcrit::qcrit_Hurley_Webbink": {
+    "type:": "double",
+    "params": [
+      "Star*donor",
+      " _UNUSED Star *accretor"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/qcrit.cpp",
+    "lines": [
+      74,
+      113
+    ]
+  },
+  "Qcrit::qcrit_Hurley_Webbink_Shao": {
+    "type:": "double",
+    "params": [
+      "Star*donor",
+      " Star *accretor"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/qcrit.cpp",
+    "lines": [
+      115,
+      157
+    ]
+  },
+  "Qcrit::qcrit_Neijssel": {
+    "type:": "double",
+    "params": [
+      "Star*donor",
+      " _UNUSED Star *accretor"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/qcrit.cpp",
+    "lines": [
+      159,
+      194
+    ]
+  },
+  "Qcrit::qcrit_COMPAS": {
+    "type:": "double",
+    "params": [
+      "Star*donor",
+      " Star *accretor"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/qcrit.cpp",
+    "lines": [
+      196,
+      225
+    ]
+  },
+  "Qcrit::qcrit_COSMIC_Claeys": {
+    "type:": "double",
+    "params": [
+      "Star*donor",
+      " Star *accretor"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/qcrit.cpp",
+    "lines": [
+      227,
+      258
+    ]
+  },
+  "Qcrit::_Webbink_giant": {
+    "type:": "double",
+    "params": [
+      "Star*donor",
+      " _UNUSED Star *accretor"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/qcrit.cpp",
+    "lines": [
+      263,
+      268
+    ]
+  },
+  "Qcrit::_Hurley_giant": {
+    "type:": "double",
+    "params": [
+      "Star*donor",
+      " _UNUSED Star *accretor"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/qcrit.cpp",
+    "lines": [
+      270,
+      279
+    ]
+  },
+  "*Kollision::Instance": {
+    "type:": "Kollision",
+    "params": [
+      "_UNUSEDIO *_io"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/procs/Collision.cpp",
+    "lines": [
+      10,
+      31
+    ]
+  },
+  "KollisionDisabled::evolve": {
+    "type:": "int",
+    "params": [
+      "_UNUSEDBinstar *binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/procs/Collision.cpp",
+    "lines": [
+      52,
+      54
+    ]
+  },
+  "KollisionHurley::outcome_collision": {
+    "type:": "collision_outcome",
+    "params": [
+      "Binstar*b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/procs/Collision.cpp",
+    "lines": [
+      56,
+      68
+    ]
+  },
+  "KollisionHurley::evolve": {
+    "type:": "int",
+    "params": [
+      "Binstar*b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/procs/Collision.cpp",
+    "lines": [
+      83,
+      105
+    ]
+  },
+  "*Circularisation::Instance": {
+    "type:": "Circularisation",
+    "params": [
+      "IO*_io"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/procs/Circularisation.cpp",
+    "lines": [
+      10,
+      32
+    ]
+  },
+  "CircularisationDisabled::evolve": {
+    "type:": "int",
+    "params": [
+      "_UNUSEDBinstar *binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/procs/Circularisation.cpp",
+    "lines": [
+      35,
+      37
+    ]
+  },
+  "StandardCircularisation::evolve": {
+    "type:": "int",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/procs/Circularisation.cpp",
+    "lines": [
+      41,
+      70
+    ]
+  },
+  "StandardCircularisation::special_evolve": {
+    "type:": "int",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/procs/Circularisation.cpp",
+    "lines": [
+      72,
+      82
+    ]
+  },
+  "CircularisationPeriastron::circularise": {
+    "type:": "int",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/procs/Circularisation.cpp",
+    "lines": [
+      105,
+      120
+    ]
+  },
+  "CircularisationAngMom::circularise": {
+    "type:": "int",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/procs/Circularisation.cpp",
+    "lines": [
+      159,
+      174
+    ]
+  },
+  "CircularisationSemimajor::circularise": {
+    "type:": "int",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/procs/Circularisation.cpp",
+    "lines": [
+      181,
+      191
+    ]
+  },
+  "HardeningDisabled::evolve": {
+    "type:": "int",
+    "params": [
+      "_UNUSEDBinstar *binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/procs/Hardening.cpp",
+    "lines": [
+      9,
+      11
+    ]
+  },
+  "*Hardening::Instance": {
+    "type:": "Hardening",
+    "params": [
+      "IO*_io"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/procs/Hardening.cpp",
+    "lines": [
+      13,
+      32
+    ]
+  },
+  "HardeningFastCluster::evolve": {
+    "type:": "int",
+    "params": [
+      "Binstar*binstar"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/binstar/procs/Hardening.cpp",
+    "lines": [
+      56,
+      84
+    ]
+  },
+  "BHrem::default_initialiser": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/remnant.cpp",
+    "lines": [
+      93,
+      96
+    ]
+  },
+  "BHrem::apply_Bavera_correction_to_Xspin": {
+    "type:": "int",
+    "params": [
+      "doubleperiod",
+      " double mass_wr"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/remnant.cpp",
+    "lines": [
+      98,
+      119
+    ]
+  },
+  "NSrem::default_initialiser": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/remnant.cpp",
+    "lines": [
+      204,
+      227
+    ]
+  },
+  "NSrem::print_log_message": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/remnant.cpp",
+    "lines": [
+      229,
+      232
+    ]
+  },
+  "Star::find_new_track": {
+    "type:": "jump_convergence",
+    "params": [
+      "boolis_merger"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/star.cpp",
+    "lines": [
+      17,
+      129
+    ]
+  },
+  "Star::jump_to_pureHE_tracks": {
+    "type:": "jump_convergence",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/star.cpp",
+    "lines": [
+      131,
+      258
+    ]
+  },
+  "Star::jump_to_normal_tracks": {
+    "type:": "jump_convergence",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/star.cpp",
+    "lines": [
+      260,
+      279
+    ]
+  },
+  "Star::find_track_after_CE_Ebinding": {
+    "type:": "jump_convergence",
+    "params": [
+      "doubleEbind",
+      " double Min_Mass",
+      " double Max_mass",
+      " bool pureHE"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/star.cpp",
+    "lines": [
+      281,
+      292
+    ]
+  },
+  "Star::find_mass_linear": {
+    "type:": "double",
+    "params": [
+      "doublemlow",
+      " double mhigh",
+      " const double MAX_MASS",
+      " const double MIN_MASS",
+      " const double plife",
+      " const size_t Phase",
+      " const bool pureHE",
+      " double & best_rel_err",
+      " utilities::jump_convergence& convergence",
+      " const size_t property_id",
+      " const double z_look"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/star.cpp",
+    "lines": [
+      294,
+      427
+    ]
+  },
+  "Star::find_mass_bisection": {
+    "type:": "double",
+    "params": [
+      "doublemlow",
+      " double mhigh",
+      " const double MAX_MASS",
+      " const double MIN_MASS",
+      " const double plife",
+      " const size_t Phase",
+      " const bool pureHE",
+      " double & best_rel_err",
+      " utilities::jump_convergence& convergence",
+      " const size_t property_id",
+      " const double z_look"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/star.cpp",
+    "lines": [
+      429,
+      575
+    ]
+  },
+  "Star::match_M": {
+    "type:": "jump_convergence",
+    "params": [
+      "double&best_rel_err",
+      "bool is_merger"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/star.cpp",
+    "lines": [
+      577,
+      688
+    ]
+  },
+  "Star::match_HE_and_binding": {
+    "type:": "jump_convergence",
+    "params": [
+      "doubleEbind",
+      " double & best_rel_err",
+      " double Min_Mass",
+      " double Max_Mass",
+      " bool pureHE"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/star.cpp",
+    "lines": [
+      690,
+      820
+    ]
+  },
+  "Star::match_core": {
+    "type:": "jump_convergence",
+    "params": [
+      "double&best_rel_err",
+      " _UNUSED bool is_merger"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/star.cpp",
+    "lines": [
+      822,
+      903
+    ]
+  },
+  "Star::jump_tracks": {
+    "type:": "jump_convergence",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/star.cpp",
+    "lines": [
+      905,
+      928
+    ]
+  },
+  "Star::default_initialiser": {
+    "type:": "void",
+    "params": [
+      "boolisareset",
+      " bool pureHE"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/star.cpp",
+    "lines": [
+      930,
+      987
+    ]
+  },
+  "Star::set_rzams": {
+    "type:": "void",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/star.cpp",
+    "lines": [
+      988,
+      1004
+    ]
+  },
+  "Star::reset_staremnant": {
+    "type:": "void",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/star.cpp",
+    "lines": [
+      1006,
+      1011
+    ]
+  },
+  "Star::evolve_to_tini_as_remnant": {
+    "type:": "void",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/star.cpp",
+    "lines": [
+      1013,
+      1035
+    ]
+  },
+  "Star::evolve": {
+    "type:": "evolution",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/star.cpp",
+    "lines": [
+      1037,
+      1175
+    ]
+  },
+  "Star::turn_into_remnant": {
+    "type:": "void",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/star.cpp",
+    "lines": [
+      1177,
+      1192
+    ]
+  },
+  "Star::explode_as_SNI": {
+    "type:": "void",
+    "params": [
+      "Binstar*b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/star.cpp",
+    "lines": [
+      1211,
+      1213
+    ]
+  },
+  "Star::tobe_exploded_as_SNI": {
+    "type:": "void",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/star.cpp",
+    "lines": [
+      1201,
+      1203
+    ]
+  },
+  "Star::crem_transition_to_NS": {
+    "type:": "void",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/star.cpp",
+    "lines": [
+      1216,
+      1220
+    ]
+  },
+  "Star::crem_transition_to_BH": {
+    "type:": "void",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/star.cpp",
+    "lines": [
+      1222,
+      1226
+    ]
+  },
+  "Star::set_staremnant": {
+    "type:": "void",
+    "params": [
+      "Staremnant*remnant"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/star.cpp",
+    "lines": [
+      1441,
+      1453
+    ]
+  },
+  "Star::get_staremnant": {
+    "type:": "double",
+    "params": [
+      "size_tID"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/star.cpp",
+    "lines": [
+      1455,
+      1457
+    ]
+  },
+  "Star::inspect_param_dt": {
+    "type:": "double",
+    "params": [
+      "std::stringp"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/star.cpp",
+    "lines": [
+      1470,
+      1525
+    ]
+  },
+  "Property::evolve_fake": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      13,
+      47
+    ]
+  },
+  "TableProperty::set_refpointers": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      50,
+      61
+    ]
+  },
+  "TableProperty::set_w": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      63,
+      66
+    ]
+  },
+  "TableProperty::set_wM": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      68,
+      82
+    ]
+  },
+  "TableProperty::set_wZ": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      84,
+      92
+    ]
+  },
+  "TableProperty::set_wM_linear": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      94,
+      103
+    ]
+  },
+  "TableProperty::set_wM_rational": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      105,
+      114
+    ]
+  },
+  "TableProperty::set_wM_log": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      116,
+      126
+    ]
+  },
+  "OptionalTableProperty::set_refpointers": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      131,
+      146
+    ]
+  },
+  "OptionalTableProperty::update_derived": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      148,
+      170
+    ]
+  },
+  "SurfaceAbundanceTable::set_refpointers": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      172,
+      183
+    ]
+  },
+  "ConvectiveTable::set_refpointers": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      185,
+      197
+    ]
+  },
+  "Mass::set_remnant": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      200,
+      207
+    ]
+  },
+  "Mass::changed_track": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar* s",
+      "Star* s_jtrack"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      209,
+      213
+    ]
+  },
+  "Mass::update_from_binary": {
+    "type:": "void",
+    "params": [
+      "Star*s",
+      " const double &DV",
+      " _UNUSED Binstar *b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      214,
+      253
+    ]
+  },
+  "Mass::correct_interpolation_errors": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      255,
+      269
+    ]
+  },
+  "Mass::correct_interpolation_errors_real": {
+    "type:": "void",
+    "params": [
+      "Star *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      271,
+      288
+    ]
+  },
+  "Inertia::changed_track": {
+    "type:": "void",
+    "params": [
+      "Star*s",
+      " Star *s_jtrack"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      291,
+      320
+    ]
+  },
+  "Inertia::set_remnant": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      321,
+      329
+    ]
+  },
+  "Inertia::evolve_remnant": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      330,
+      333
+    ]
+  },
+  "Inertia::evolve_nakedco": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      335,
+      338
+    ]
+  },
+  "Inertia::set_refpointers": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      340,
+      364
+    ]
+  },
+  "Inertia::correct_interpolation_errors_real": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      366,
+      372
+    ]
+  },
+  "Inertia::evolve_without_table": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      375,
+      381
+    ]
+  },
+  "Inertia::estimate_logInertia": {
+    "type:": "double",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      382,
+      384
+    ]
+  },
+  "Inertia::estimate_Inertia_homogeneous_sphere": {
+    "type:": "double",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      408,
+      410
+    ]
+  },
+  "Inertia::estimate_Inertia_homogeneous_sphere_wcore": {
+    "type:": "double",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      411,
+      416
+    ]
+  },
+  "Inertia::estimate_Inertia_Hurley": {
+    "type:": "double",
+    "params": [
+      "_UNUSEDStar *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      419,
+      429
+    ]
+  },
+  "Inertia::estimate_Inertia_DeMink": {
+    "type:": "double",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      431,
+      463
+    ]
+  },
+  "Inertia::set_wM": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      465,
+      478
+    ]
+  },
+  "Luminosity::changed_track": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar* s",
+      "Star* s_jtrack"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      482,
+      496
+    ]
+  },
+  "Luminosity::set_remnant": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      497,
+      503
+    ]
+  },
+  "Luminosity::evolve_remnant": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      504,
+      507
+    ]
+  },
+  "Luminosity::set_wM": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      509,
+      522
+    ]
+  },
+  "Radius::evolve": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      525,
+      534
+    ]
+  },
+  "Radius::changed_track": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar* s",
+      "Star* s_jtrack"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      536,
+      553
+    ]
+  },
+  "Radius::set_remnant": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      554,
+      562
+    ]
+  },
+  "Radius::evolve_remnant": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      563,
+      566
+    ]
+  },
+  "Radius::set_wM": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      568,
+      583
+    ]
+  },
+  "Phase::special_evolve": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      587,
+      632
+    ]
+  },
+  "Phase::changed_track": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar *s",
+      " Star *s_jtrack"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      633,
+      635
+    ]
+  },
+  "Phase::set_wM": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      637,
+      650
+    ]
+  },
+  "Localtime::special_evolve": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      664,
+      673
+    ]
+  },
+  "Localtime::changed_track": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar* s",
+      "Star* s_jtrack"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      674,
+      676
+    ]
+  },
+  "Temperature::evolve": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      679,
+      684
+    ]
+  },
+  "Temperature::changed_track": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar *s",
+      " Star *s_jtrack"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      685,
+      691
+    ]
+  },
+  "MCO::evolve": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      711,
+      717
+    ]
+  },
+  "MCO::correct_interpolation_errors": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      719,
+      732
+    ]
+  },
+  "MCO::correct_interpolation_errors_real": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      735,
+      799
+    ]
+  },
+  "MCO::changed_track": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar *s",
+      " Star *s_jtrack"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      803,
+      812
+    ]
+  },
+  "MHE::evolve": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      816,
+      834
+    ]
+  },
+  "MHE::correct_interpolation_errors": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      836,
+      845
+    ]
+  },
+  "MHE::correct_interpolation_errors_real": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      848,
+      883
+    ]
+  },
+  "MHE::changed_track": {
+    "type:": "void",
+    "params": [
+      "Star*s",
+      " Star *s_jtrack"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      884,
+      899
+    ]
+  },
+  "RHE::evolve": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      903,
+      926
+    ]
+  },
+  "RHE::correct_interpolation_errors": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      928,
+      937
+    ]
+  },
+  "RHE::correct_interpolation_errors_real": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      939,
+      950
+    ]
+  },
+  "RHE::changed_track": {
+    "type:": "void",
+    "params": [
+      "Star*s",
+      " Star *s_jtrack"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      951,
+      964
+    ]
+  },
+  "RHE::evolve_without_table": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      965,
+      974
+    ]
+  },
+  "RHE::set_refpointers": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      975,
+      985
+    ]
+  },
+  "RHE::estimate_Rcore": {
+    "type:": "double",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      986,
+      993
+    ]
+  },
+  "RCO::evolve": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      996,
+      1005
+    ]
+  },
+  "RCO::correct_interpolation_errors": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1007,
+      1016
+    ]
+  },
+  "RCO::correct_interpolation_errors_real": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1018,
+      1041
+    ]
+  },
+  "RCO::changed_track": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar *s",
+      " Star *s_jtrack"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1042,
+      1051
+    ]
+  },
+  "RCO::set_refpointers": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1052,
+      1062
+    ]
+  },
+  "RCO::evolve_without_table": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1063,
+      1072
+    ]
+  },
+  "RCO::estimate_Rcore": {
+    "type:": "double",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1073,
+      1080
+    ]
+  },
+  "Bmag::evolve": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1085,
+      1087
+    ]
+  },
+  "Bmag::set_remnant": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1088,
+      1094
+    ]
+  },
+  "Bmag::evolve_remnant": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1095,
+      1098
+    ]
+  },
+  "OmegaRem::set_remnant": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1101,
+      1107
+    ]
+  },
+  "OmegaRem::evolve_remnant": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1108,
+      1111
+    ]
+  },
+  "Rs::evolve": {
+    "type:": "void",
+    "params": [
+      "Star *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1117,
+      1122
+    ]
+  },
+  "Spin::evolve": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1125,
+      1128
+    ]
+  },
+  "Spin::Spin_from_OmegaSpin": {
+    "type:": "double",
+    "params": [
+      "doubleOmegaSpin",
+      " double Mass",
+      " double Radius"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1131,
+      1133
+    ]
+  },
+  "Worldtime::special_evolve": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1137,
+      1148
+    ]
+  },
+  "NextOutput::special_evolve": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1151,
+      1156
+    ]
+  },
+  "Timestep::evolve": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1159,
+      1426
+    ]
+  },
+  "Timestep::handle_star_check_repeat": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1561,
+      1567
+    ]
+  },
+  "Timestep::resynch": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1568,
+      1570
+    ]
+  },
+  "Timestep::timestep_remnant": {
+    "type:": "double",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1572,
+      1611
+    ]
+  },
+  "Timestep::set_remnant": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1612,
+      1631
+    ]
+  },
+  "Timestep::set_remnant_in_bse": {
+    "type:": "void",
+    "params": [
+      "Star*s",
+      " _UNUSED Binstar *b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1632,
+      1636
+    ]
+  },
+  "Timestep::set_empty_in_bse": {
+    "type:": "void",
+    "params": [
+      "Star*s",
+      " Binstar *b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1637,
+      1639
+    ]
+  },
+  "Timestep::check_dt_limits": {
+    "type:": "void",
+    "params": [
+      "double&dt",
+      " Star *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1641,
+      1648
+    ]
+  },
+  "Timestep::changed_track": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar* s",
+      "Star* s_jtrack"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1649,
+      1656
+    ]
+  },
+  "dRdt::evolve": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1661,
+      1664
+    ]
+  },
+  "dMCOdt::evolve": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1667,
+      1670
+    ]
+  },
+  "dMHEdt::evolve": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1673,
+      1676
+    ]
+  },
+  "dMdt::evolve": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1679,
+      1684
+    ]
+  },
+  "Hsup::changed_track": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar *s",
+      " Star *s_jtrack"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1689,
+      1694
+    ]
+  },
+  "HEsup::changed_track": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar *s",
+      " Star *s_jtrack"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1695,
+      1700
+    ]
+  },
+  "Csup::changed_track": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar *s",
+      " Star *s_jtrack"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1701,
+      1706
+    ]
+  },
+  "Nsup::changed_track": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar *s",
+      " Star *s_jtrack"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1707,
+      1712
+    ]
+  },
+  "Osup::changed_track": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar *s",
+      " Star *s_jtrack"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1713,
+      1718
+    ]
+  },
+  "Qconv::changed_track": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar *s",
+      " Star *s_jtrack"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1721,
+      1730
+    ]
+  },
+  "Qconv::evolve_without_table": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1731,
+      1739
+    ]
+  },
+  "Qconv::estimate_Qconv": {
+    "type:": "double",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1740,
+      1781
+    ]
+  },
+  "Tconv::changed_track": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar *s",
+      " Star *s_jtrack"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1782,
+      1788
+    ]
+  },
+  "Depthconv::changed_track": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar *s",
+      " Star *s_jtrack"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1789,
+      1799
+    ]
+  },
+  "Depthconv::evolve_without_table": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1800,
+      1806
+    ]
+  },
+  "Depthconv::estimate_Dconv": {
+    "type:": "double",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1807,
+      1846
+    ]
+  },
+  "AngMomSpin::evolve": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1850,
+      1860
+    ]
+  },
+  "AngMomSpin::evolve_angmom": {
+    "type:": "double",
+    "params": [
+      "_UNUSEDStar *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1862,
+      1892
+    ]
+  },
+  "AngMomSpin::changed_track": {
+    "type:": "void",
+    "params": [
+      "Star*s",
+      " _UNUSED Star *s_jtrack"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1894,
+      1902
+    ]
+  },
+  "OmegaSpin::evolve": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1905,
+      1910
+    ]
+  },
+  "Xspin::set_remnant": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1913,
+      1918
+    ]
+  },
+  "Xspin::evolve_remnant": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1920,
+      1924
+    ]
+  },
+  "RemnantType::set_remnant": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1928,
+      1931
+    ]
+  },
+  "RemnantType::set_empty": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1933,
+      1936
+    ]
+  },
+  "RemnantType::evolve": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1938,
+      1941
+    ]
+  },
+  "Lambda::get": {
+    "type:": "double",
+    "params": [
+      "constStar *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      1945,
+      1959
+    ]
+  },
+  "Lambda::estimate_lambda_Izzard04": {
+    "type:": "double",
+    "params": [
+      "constStar *star",
+      "bool whole_cenv"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      2000,
+      2128
+    ]
+  },
+  "Lambda::estimate_lambda_Claeys14": {
+    "type:": "double",
+    "params": [
+      "constStar *star",
+      "bool whole_cenv"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      2130,
+      2254
+    ]
+  },
+  "Lambda::estimate_lambda_Parsec": {
+    "type:": "double",
+    "params": [
+      "constStar *star"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      2256,
+      2258
+    ]
+  },
+  "Lambda::estimate_lambda_BSE": {
+    "type:": "double",
+    "params": [
+      "constStar *star",
+      " bool whole_cenv",
+      " bool m0_as_hurley"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      2260,
+      2405
+    ]
+  },
+  "Lambda::get_M0_BSE": {
+    "type:": "double",
+    "params": [
+      "constStar *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      2409,
+      2418
+    ]
+  },
+  "Lambda::get_Rzams": {
+    "type:": "double",
+    "params": [
+      "constStar *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      2421,
+      2430
+    ]
+  },
+  "Lambda::estimate_lambda_Klencki21": {
+    "type:": "double",
+    "params": [
+      "constStar *star",
+      " bool interpolate"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      2432,
+      2448
+    ]
+  },
+  "Lambda::estimate_lambda_Nanjing": {
+    "type:": "double",
+    "params": [
+      "constStar *star",
+      " bool interpolate"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      2450,
+      2461
+    ]
+  },
+  "Ebind::get": {
+    "type:": "double",
+    "params": [
+      "constStar *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      2465,
+      2479
+    ]
+  },
+  "PhaseBSE::get": {
+    "type:": "double",
+    "params": [
+      "constStar *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      2483,
+      2490
+    ]
+  },
+  "Zams::get": {
+    "type:": "double",
+    "params": [
+      "constStar *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      2493,
+      2500
+    ]
+  },
+  "Zmet::get": {
+    "type:": "double",
+    "params": [
+      "constStar* s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      2502,
+      2509
+    ]
+  },
+  "dMcumul_RLO::update_from_binary": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar *s",
+      " const double &DV",
+      " _UNUSED Binstar *b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      2511,
+      2554
+    ]
+  },
+  "dMRLOdt::get": {
+    "type:": "double",
+    "params": [
+      "constStar *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      2557,
+      2586
+    ]
+  },
+  "dMaccwinddt::get": {
+    "type:": "double",
+    "params": [
+      "constStar *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      2588,
+      2600
+    ]
+  },
+  "Event::get": {
+    "type:": "double",
+    "params": [
+      "constStar *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      2605,
+      2626
+    ]
+  },
+  "NSsalpha::set_remnant": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      2628,
+      2635
+    ]
+  },
+  "Derived_Property::update_derived": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/property.cpp",
+    "lines": [
+      2637,
+      2648
+    ]
+  },
+  "CC15::_apply": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/kicks/specialkicks.cpp",
+    "lines": [
+      11,
+      25
+    ]
+  },
+  "EC15CC265::_apply": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/kicks/specialkicks.cpp",
+    "lines": [
+      30,
+      53
+    ]
+  },
+  "ECUS30::_apply": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/kicks/specialkicks.cpp",
+    "lines": [
+      58,
+      85
+    ]
+  },
+  "HobbsPure::_apply": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/kicks/hobbs.cpp",
+    "lines": [
+      10,
+      19
+    ]
+  },
+  "Hobbs::_apply": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/kicks/hobbs.cpp",
+    "lines": [
+      24,
+      44
+    ]
+  },
+  "Hobbs::estimate_fallback_correction": {
+    "type:": "double",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/kicks/hobbs.cpp",
+    "lines": [
+      46,
+      81
+    ]
+  },
+  "Kicks::check_and_correct_vkick": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/kicks/kicks.cpp",
+    "lines": [
+      18,
+      56
+    ]
+  },
+  "Kicks::apply": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/kicks/kicks.cpp",
+    "lines": [
+      58,
+      64
+    ]
+  },
+  "Unified::_apply": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/kicks/unified.cpp",
+    "lines": [
+      9,
+      37
+    ]
+  },
+  "Zeros::_apply": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/kicks/zeros.cpp",
+    "lines": [
+      8,
+      10
+    ]
+  },
+  "supernova::initialise_remnant": {
+    "type:": "void",
+    "params": [
+      "Star*s",
+      " double Mass_remnant",
+      " Lookup::Remnants Remnant_type"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/supernova/supernova.cpp",
+    "lines": [
+      53,
+      88
+    ]
+  },
+  "supernova::main": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/supernova/supernova.cpp",
+    "lines": [
+      118,
+      141
+    ]
+  },
+  "supernova::WDformation": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/supernova/supernova.cpp",
+    "lines": [
+      143,
+      165
+    ]
+  },
+  "supernova::ECSN": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/supernova/supernova.cpp",
+    "lines": [
+      167,
+      174
+    ]
+  },
+  "supernova::CCexplosion": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/supernova/supernova.cpp",
+    "lines": [
+      176,
+      184
+    ]
+  },
+  "supernova::set_staremnant": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/supernova/supernova.cpp",
+    "lines": [
+      186,
+      207
+    ]
+  },
+  "supernova::remnant_properties": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/supernova/supernova.cpp",
+    "lines": [
+      209,
+      242
+    ]
+  },
+  "supernova::explosion_SNI": {
+    "type:": "void",
+    "params": [
+      "Star*s",
+      " Binstar *b"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/supernova/supernova.cpp",
+    "lines": [
+      290,
+      295
+    ]
+  },
+  "supernova::set_Average_for_Unified": {
+    "type:": "void",
+    "params": [
+      "Star*s",
+      " double default_Average_Mremnant",
+      " double default_Average_Mejected"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/supernova/supernova.cpp",
+    "lines": [
+      297,
+      302
+    ]
+  },
+  "supernova::_set_preSN_Masses": {
+    "type:": "int",
+    "params": [
+      "Star*s",
+      " bool allow_pisn"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/supernova/supernova.cpp",
+    "lines": [
+      323,
+      339
+    ]
+  },
+  "supernova::Mass_corrections_after_explosion": {
+    "type:": "double",
+    "params": [
+      "constdouble mass",
+      " Star *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/supernova/supernova.cpp",
+    "lines": [
+      347,
+      354
+    ]
+  },
+  "PisnON::set_preSN_Masses": {
+    "type:": "int",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/supernova/supernova.cpp",
+    "lines": [
+      357,
+      360
+    ]
+  },
+  "PisnON::pisn": {
+    "type:": "double",
+    "params": [
+      "constdouble mass",
+      " Star *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/supernova/supernova.cpp",
+    "lines": [
+      368,
+      373
+    ]
+  },
+  "PisnOFF::set_preSN_Masses": {
+    "type:": "int",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/supernova/supernova.cpp",
+    "lines": [
+      376,
+      379
+    ]
+  },
+  "PisnOFF::pisn": {
+    "type:": "double",
+    "params": [
+      "constdouble mass",
+      " _UNUSED Star *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/supernova/supernova.cpp",
+    "lines": [
+      388,
+      392
+    ]
+  },
+  "NSfromGau::get_NS_mass": {
+    "type:": "double",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/supernova/supernova.cpp",
+    "lines": [
+      395,
+      401
+    ]
+  },
+  "NSfromGau::ECSN": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/supernova/supernova.cpp",
+    "lines": [
+      403,
+      409
+    ]
+  },
+  "NSfromGau::CCexplosion": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/supernova/supernova.cpp",
+    "lines": [
+      411,
+      417
+    ]
+  },
+  "rapid::explosion": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/supernova/rapid.cpp",
+    "lines": [
+      23,
+      52
+    ]
+  },
+  "delayed::explosion": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/supernova/delayed.cpp",
+    "lines": [
+      22,
+      63
+    ]
+  },
+  "compactness::explosion": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/supernova/compactness.cpp",
+    "lines": [
+      39,
+      67
+    ]
+  },
+  "compactness::csi25_mapelli20": {
+    "type:": "double",
+    "params": [
+      "doubleMCO"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/supernova/compactness.cpp",
+    "lines": [
+      69,
+      72
+    ]
+  },
+  "compactness::load_table": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/supernova/compactness.cpp",
+    "lines": [
+      80,
+      83
+    ]
+  },
+  "compactness::generate_random_gau": {
+    "type:": "double",
+    "params": [
+      "doublemean",
+      " double std"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/supernova/compactness.cpp",
+    "lines": [
+      108,
+      110
+    ]
+  },
+  "DeathMatrix::load_table": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/supernova/deathmatrix.cpp",
+    "lines": [
+      31,
+      34
+    ]
+  },
+  "DeathMatrix::explosion": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/supernova/deathmatrix.cpp",
+    "lines": [
+      38,
+      60
+    ]
+  },
+  "DeathMatrix::CCexplosion": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/supernova/deathmatrix.cpp",
+    "lines": [
+      62,
+      67
+    ]
+  },
+  "DeathMatrix::ECSN": {
+    "type:": "void",
+    "params": [
+      "Star*s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/supernova/deathmatrix.cpp",
+    "lines": [
+      69,
+      75
+    ]
+  },
+  "directcollapse::explosion": {
+    "type:": "void",
+    "params": [
+      "_UNUSEDStar *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/supernova/directcollapse.cpp",
+    "lines": [
+      21,
+      25
+    ]
+  },
+  "PIMapelli20::pisn_correction": {
+    "type:": "double",
+    "params": [
+      "constdouble mass",
+      " Star *s",
+      " Lookup::SNExplosionType& sntype"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/pairinstability/pimapelli20.cpp",
+    "lines": [
+      25,
+      99
+    ]
+  },
+  "*PairInstability::Instance": {
+    "type:": "PairInstability",
+    "params": [
+      "conststd::string &name"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/pairinstability/pairinstability.cpp",
+    "lines": [
+      9,
+      27
+    ]
+  },
+  "PairInstability::Register": {
+    "type:": "void",
+    "params": [
+      "PairInstability*ptr"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/pairinstability/pairinstability.cpp",
+    "lines": [
+      29,
+      38
+    ]
+  },
+  "NeutrinoMassLoss::Register": {
+    "type:": "void",
+    "params": [
+      "NeutrinoMassLoss*ptr"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/neutrinomassloss/neutrinomassloss.cpp",
+    "lines": [
+      7,
+      16
+    ]
+  },
+  "*NeutrinoMassLoss::Instance": {
+    "type:": "NeutrinoMassLoss",
+    "params": [
+      "conststd::string &name"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/procs/neutrinomassloss/neutrinomassloss.cpp",
+    "lines": [
+      18,
+      37
+    ]
+  },
+  "Lambda_Klencki::operator": {
+    "type:": "double",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/lambdas/lambda_klencki21.cpp",
+    "lines": [
+      57,
+      66
+    ]
+  },
+  "Lambda_Klencki::estimate_lambda": {
+    "type:": "double",
+    "params": [
+      "doubleR",
+      " const std::vector<double>& coefficients"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/lambdas/lambda_klencki21.cpp",
+    "lines": [
+      68,
+      96
+    ]
+  },
+  "Lambda_Klencki_interpolator::fill_interpolators_lists": {
+    "type:": "void",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/lambdas/lambda_klencki21.cpp",
+    "lines": [
+      120,
+      146
+    ]
+  },
+  "Lambda_Klencki_interpolator::find_interpolators": {
+    "type:": "void",
+    "params": [
+      "doubleMzams",
+      " double Z"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/lambdas/lambda_klencki21.cpp",
+    "lines": [
+      148,
+      184
+    ]
+  },
+  "Lambda_Klencki_interpolator::operator": {
+    "type:": "double",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/lambdas/lambda_klencki21.cpp",
+    "lines": [
+      186,
+      209
+    ]
+  },
+  "Lambda_Nanjing::set_coeff_Giant": {
+    "type:": "coeff_status",
+    "params": [
+      "doubleMzams",
+      " double Z",
+      " double Radius"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/lambdas/lambda_nanjing.cpp",
+    "lines": [
+      9,
+      285
+    ]
+  },
+  "Lambda_Nanjing::set_coeff_Cheb": {
+    "type:": "coeff_status",
+    "params": [
+      "doubleMzams",
+      " double Z",
+      " double Radius"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/lambdas/lambda_nanjing.cpp",
+    "lines": [
+      286,
+      576
+    ]
+  },
+  "Lambda_Nanjing::set_coeff_AGB": {
+    "type:": "coeff_status",
+    "params": [
+      "doubleMzams",
+      " double Z",
+      " double Radius"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/lambdas/lambda_nanjing.cpp",
+    "lines": [
+      577,
+      857
+    ]
+  },
+  "Lambda_Nanjing::lambda_Giant": {
+    "type:": "double",
+    "params": [
+      "constStar *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/lambdas/lambda_nanjing.cpp",
+    "lines": [
+      935,
+      944
+    ]
+  },
+  "Lambda_Nanjing::lambda_Cheb": {
+    "type:": "double",
+    "params": [
+      "constStar *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/lambdas/lambda_nanjing.cpp",
+    "lines": [
+      945,
+      954
+    ]
+  },
+  "Lambda_Nanjing::lambda_AGB": {
+    "type:": "double",
+    "params": [
+      "constStar *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/lambdas/lambda_nanjing.cpp",
+    "lines": [
+      955,
+      964
+    ]
+  },
+  "Lambda_Nanjing::lambda_pureHe": {
+    "type:": "double",
+    "params": [
+      "constStar *s"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/lambdas/lambda_nanjing.cpp",
+    "lines": [
+      965,
+      974
+    ]
+  },
+  "Lambda_Nanjing::operator": {
+    "type:": "double",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/lambdas/lambda_nanjing.cpp",
+    "lines": [
+      976,
+      993
+    ]
+  },
+  "Lambda_Nanjing_interpolator::find_interpolators": {
+    "type:": "void",
+    "params": [
+      "doubleMzams"
+    ],
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/lambdas/lambda_nanjing.cpp",
+    "lines": [
+      998,
+      1012
+    ]
+  },
+  "Lambda_Nanjing_interpolator::operator": {
+    "type:": "double",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/src/star/lambdas/lambda_nanjing.cpp",
+    "lines": [
+      1014,
+      1039
+    ]
+  },
+  "Plot::Execute": {
+    "type:": "void",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/hdf5_interpreter/src/Plot.cpp",
+    "lines": [
+      12,
+      113
+    ]
+  },
+  "Header::Execute": {
+    "type:": "void",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/hdf5_interpreter/src/Query.cpp",
+    "lines": [
+      9,
+      17
+    ]
+  },
+  "Dataset::Execute": {
+    "type:": "void",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/hdf5_interpreter/src/Query.cpp",
+    "lines": [
+      19,
+      23
+    ]
+  },
+  "LoadDataset::Execute": {
+    "type:": "void",
+    "params": "",
+    "file": "/home/jake/Downloads/sevndevel-SEVN/hdf5_interpreter/src/LoadDataset.cpp",
+    "lines": [
+      10,
+      165
+    ]
+  }
+}

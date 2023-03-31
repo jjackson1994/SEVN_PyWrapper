@@ -1,0 +1,1633 @@
+{
+  "SEVNpar": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/params.h",
+    "lines": [
+      22,
+      872
+    ]
+  },
+  "Star": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/lambdas/lambda_base.h",
+    "lines": [
+      10,
+      10
+    ]
+  },
+  "IO": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/lambdas/lambda_base.h",
+    "lines": [
+      11,
+      11
+    ]
+  },
+  "Orbital_change": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Processes.h",
+    "lines": [
+      28,
+      28
+    ]
+  },
+  "EvolveFunctor": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/evolve.h",
+    "lines": [
+      38,
+      72
+    ]
+  },
+  "EvolveDebug": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/evolve.h",
+    "lines": [
+      75,
+      97
+    ]
+  },
+  "EvolveDefault": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/evolve.h",
+    "lines": [
+      101,
+      154
+    ]
+  },
+  "EvolveStopCondition": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/evolve.h",
+    "lines": [
+      157,
+      242
+    ]
+  },
+  "EvolveRecordCondition": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/evolve.h",
+    "lines": [
+      245,
+      357
+    ]
+  },
+  "EvolveBinaryCompact": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/evolve.h",
+    "lines": [
+      361,
+      378
+    ]
+  },
+  "EvolveBinaryCompactOld": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/evolve.h",
+    "lines": [
+      382,
+      433
+    ]
+  },
+  "EvolveBBH": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/evolve.h",
+    "lines": [
+      436,
+      453
+    ]
+  },
+  "EvolveBLC": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/evolve.h",
+    "lines": [
+      457,
+      527
+    ]
+  },
+  "EvolveBCX1": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/evolve.h",
+    "lines": [
+      533,
+      554
+    ]
+  },
+  "EvolveBHMSTarantula": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/evolve.h",
+    "lines": [
+      557,
+      582
+    ]
+  },
+  "EvolveW1": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/evolve.h",
+    "lines": [
+      585,
+      610
+    ]
+  },
+  "EvolveRRL": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/evolve.h",
+    "lines": [
+      614,
+      628
+    ]
+  },
+  "sevnerr": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/errhand.h",
+    "lines": [
+      24,
+      50
+    ]
+  },
+  "SevnLogging": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/sevnlog.h",
+    "lines": [
+      35,
+      287
+    ]
+  },
+  "sevnio_error": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/errhand.h",
+    "lines": [
+      53,
+      63
+    ]
+  },
+  "sse_error": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/errhand.h",
+    "lines": [
+      66,
+      76
+    ]
+  },
+  "bse_error": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/errhand.h",
+    "lines": [
+      79,
+      89
+    ]
+  },
+  "rl_error": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/errhand.h",
+    "lines": [
+      92,
+      102
+    ]
+  },
+  "ce_error": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/errhand.h",
+    "lines": [
+      104,
+      115
+    ]
+  },
+  "sn_error": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/errhand.h",
+    "lines": [
+      117,
+      130
+    ]
+  },
+  "jtrack_error": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/errhand.h",
+    "lines": [
+      132,
+      142
+    ]
+  },
+  "params_error": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/errhand.h",
+    "lines": [
+      144,
+      154
+    ]
+  },
+  "notimplemented_error": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/errhand.h",
+    "lines": [
+      156,
+      165
+    ]
+  },
+  "sanity_error": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/errhand.h",
+    "lines": [
+      167,
+      176
+    ]
+  },
+  "Binstar": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/star.h",
+    "lines": [
+      35,
+      2102
+    ]
+  },
+  "ListGenerator": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/utilities.h",
+    "lines": [
+      647,
+      761
+    ]
+  },
+  "H5out": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/h5out/H5out.h",
+    "lines": [
+      20,
+      57
+    ]
+  },
+  "Process": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Processes.h",
+    "lines": [
+      30,
+      142
+    ]
+  },
+  "Orbital_change_Wind": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Orbit.h",
+    "lines": [
+      78,
+      119
+    ]
+  },
+  "disabled_winds": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Orbit.h",
+    "lines": [
+      121,
+      140
+    ]
+  },
+  "Hurley_winds": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Orbit.h",
+    "lines": [
+      142,
+      171
+    ]
+  },
+  "Orbital_change_Tides": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Orbit.h",
+    "lines": [
+      176,
+      267
+    ]
+  },
+  "disabled_tides": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Orbit.h",
+    "lines": [
+      269,
+      285
+    ]
+  },
+  "Tides_simple": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Orbit.h",
+    "lines": [
+      287,
+      327
+    ]
+  },
+  "Tides_simple_notab": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Orbit.h",
+    "lines": [
+      329,
+      356
+    ]
+  },
+  "Orbital_change_GW": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Orbit.h",
+    "lines": [
+      361,
+      398
+    ]
+  },
+  "disabled_gw": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Orbit.h",
+    "lines": [
+      400,
+      418
+    ]
+  },
+  "Peters_gw": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Orbit.h",
+    "lines": [
+      420,
+      503
+    ]
+  },
+  "Orbital_change_RL\",__FILE__,__LINE__,sevnstd::notimplemented_error())": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Orbit.h",
+    "lines": [
+      563,
+      564
+    ]
+  },
+  "disabled_rl": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Orbit.h",
+    "lines": [
+      724,
+      748
+    ]
+  },
+  "Hurley_rl": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Orbit.h",
+    "lines": [
+      750,
+      880
+    ]
+  },
+  "Hurley_rl_bse": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Orbit.h",
+    "lines": [
+      882,
+      908
+    ]
+  },
+  "Hurley_mod_rl": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Orbit.h",
+    "lines": [
+      910,
+      930
+    ]
+  },
+  "Orbital_change_Mix": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Orbit.h",
+    "lines": [
+      934,
+      972
+    ]
+  },
+  "disabled_mix": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Orbit.h",
+    "lines": [
+      974,
+      992
+    ]
+  },
+  "simple_mix": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Orbit.h",
+    "lines": [
+      994,
+      1016
+    ]
+  },
+  "Orbital_change_SNKicks": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Orbit.h",
+    "lines": [
+      1019,
+      1065
+    ]
+  },
+  "disabled_SNKicks": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Orbit.h",
+    "lines": [
+      1068,
+      1085
+    ]
+  },
+  "Hurley_SNKicks": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Orbit.h",
+    "lines": [
+      1087,
+      1132
+    ]
+  },
+  "Orbital_change_CE": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Orbit.h",
+    "lines": [
+      1136,
+      1172
+    ]
+  },
+  "energy_CE": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Orbit.h",
+    "lines": [
+      1174,
+      1193
+    ]
+  },
+  "disabled_CE": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Orbit.h",
+    "lines": [
+      1195,
+      1214
+    ]
+  },
+  "MTstability": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/MTstability.h",
+    "lines": [
+      32,
+      73
+    ]
+  },
+  "MT_Qcrit": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/MTstability.h",
+    "lines": [
+      76,
+      95
+    ]
+  },
+  "Qcrit_Hurley": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/MTstability.h",
+    "lines": [
+      98,
+      124
+    ]
+  },
+  "Qcrit_Hurley_Webbink": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/MTstability.h",
+    "lines": [
+      127,
+      150
+    ]
+  },
+  "Qcrit_Hurley_Webbink_Shao": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/MTstability.h",
+    "lines": [
+      153,
+      176
+    ]
+  },
+  "Qcrit_COSMIC_Neijssel": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/MTstability.h",
+    "lines": [
+      179,
+      201
+    ]
+  },
+  "Qcrit_COSMIC_Claeys:": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/MTstability.h",
+    "lines": [
+      204,
+      227
+    ]
+  },
+  "Qcrit_StarTrack": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/MTstability.h",
+    "lines": [
+      230,
+      253
+    ]
+  },
+  "Qcrit_Radiative_Stable": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/MTstability.h",
+    "lines": [
+      256,
+      277
+    ]
+  },
+  "Qcrit_HRadiative_Stable": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/MTstability.h",
+    "lines": [
+      280,
+      301
+    ]
+  },
+  "MT_Zeta": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/MTstability.h",
+    "lines": [
+      303,
+      322
+    ]
+  },
+  "CommonEnvelope": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Processes.h",
+    "lines": [
+      144,
+      278
+    ]
+  },
+  "MaccretionProcess": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Processes.h",
+    "lines": [
+      280,
+      294
+    ]
+  },
+  "RocheLobe": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Processes.h",
+    "lines": [
+      296,
+      360
+    ]
+  },
+  "Windaccretion": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Processes.h",
+    "lines": [
+      362,
+      405
+    ]
+  },
+  "SNKicks": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Processes.h",
+    "lines": [
+      408,
+      439
+    ]
+  },
+  "GWrad": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Processes.h",
+    "lines": [
+      441,
+      473
+    ]
+  },
+  "Tides": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Processes.h",
+    "lines": [
+      475,
+      500
+    ]
+  },
+  "Mix": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/Processes.h",
+    "lines": [
+      502,
+      534
+    ]
+  },
+  "BinaryProperty": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/BinaryProperty.h",
+    "lines": [
+      25,
+      98
+    ]
+  },
+  "Eccentricity": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/BinaryProperty.h",
+    "lines": [
+      101,
+      137
+    ]
+  },
+  "Semimajor": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/BinaryProperty.h",
+    "lines": [
+      139,
+      177
+    ]
+  },
+  "Derived_Property_Binary": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/BinaryProperty.h",
+    "lines": [
+      184,
+      200
+    ]
+  },
+  "dadt": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/BinaryProperty.h",
+    "lines": [
+      204,
+      228
+    ]
+  },
+  "dedt": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/BinaryProperty.h",
+    "lines": [
+      230,
+      254
+    ]
+  },
+  "AngMom": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/BinaryProperty.h",
+    "lines": [
+      256,
+      288
+    ]
+  },
+  "Period": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/BinaryProperty.h",
+    "lines": [
+      290,
+      324
+    ]
+  },
+  "GWtime": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/BinaryProperty.h",
+    "lines": [
+      326,
+      357
+    ]
+  },
+  "_RL": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/BinaryProperty.h",
+    "lines": [
+      359,
+      376
+    ]
+  },
+  "RL0": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/BinaryProperty.h",
+    "lines": [
+      378,
+      400
+    ]
+  },
+  "RL1": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/BinaryProperty.h",
+    "lines": [
+      402,
+      424
+    ]
+  },
+  "BWorldtime": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/BinaryProperty.h",
+    "lines": [
+      427,
+      456
+    ]
+  },
+  "BTimestep": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/BinaryProperty.h",
+    "lines": [
+      458,
+      525
+    ]
+  },
+  "BEvent": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/BinaryProperty.h",
+    "lines": [
+      527,
+      553
+    ]
+  },
+  "BJIT_Property": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/BinaryProperty.h",
+    "lines": [
+      557,
+      609
+    ]
+  },
+  "Kollision": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/procs/Collision.h",
+    "lines": [
+      20,
+      68
+    ]
+  },
+  "KollisionDisabled": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/procs/Collision.h",
+    "lines": [
+      71,
+      88
+    ]
+  },
+  "KollisionHurley": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/procs/Collision.h",
+    "lines": [
+      90,
+      111
+    ]
+  },
+  "Circularisation": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/procs/Circularisation.h",
+    "lines": [
+      15,
+      49
+    ]
+  },
+  "CircularisationDisabled": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/procs/Circularisation.h",
+    "lines": [
+      55,
+      72
+    ]
+  },
+  "StandardCircularisation": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/procs/Circularisation.h",
+    "lines": [
+      75,
+      103
+    ]
+  },
+  "CircularisationPeriastron": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/procs/Circularisation.h",
+    "lines": [
+      106,
+      127
+    ]
+  },
+  "CircularisationPeriastronFull": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/procs/Circularisation.h",
+    "lines": [
+      130,
+      152
+    ]
+  },
+  "CircularisationAngMom": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/procs/Circularisation.h",
+    "lines": [
+      155,
+      176
+    ]
+  },
+  "CircularisationSemimajor": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/procs/Circularisation.h",
+    "lines": [
+      179,
+      200
+    ]
+  },
+  "Hardening": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/procs/Hardening.h",
+    "lines": [
+      17,
+      57
+    ]
+  },
+  "HardeningDisabled": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/procs/Hardening.h",
+    "lines": [
+      60,
+      77
+    ]
+  },
+  "HardeningFastCluster": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/procs/Hardening.h",
+    "lines": [
+      80,
+      102
+    ]
+  },
+  "Staremnant": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/star.h",
+    "lines": [
+      31,
+      31
+    ]
+  },
+  "BHrem": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/remnant.h",
+    "lines": [
+      66,
+      197
+    ]
+  },
+  "NSrem": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/remnant.h",
+    "lines": [
+      201,
+      253
+    ]
+  },
+  "NSCCrem": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/remnant.h",
+    "lines": [
+      255,
+      264
+    ]
+  },
+  "NSECrem": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/remnant.h",
+    "lines": [
+      266,
+      277
+    ]
+  },
+  "WDrem": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/remnant.h",
+    "lines": [
+      279,
+      304
+    ]
+  },
+  "HeWDrem": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/remnant.h",
+    "lines": [
+      306,
+      324
+    ]
+  },
+  "COWDrem": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/remnant.h",
+    "lines": [
+      326,
+      343
+    ]
+  },
+  "ONeWDrem": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/remnant.h",
+    "lines": [
+      345,
+      361
+    ]
+  },
+  "BSE_Coefficient": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/BSEintegrator.h",
+    "lines": [
+      13,
+      43
+    ]
+  },
+  "BSE_Coefficient_a1": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/BSEintegrator.h",
+    "lines": [
+      47,
+      52
+    ]
+  },
+  "BSE_Coefficient_a2": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/BSEintegrator.h",
+    "lines": [
+      53,
+      56
+    ]
+  },
+  "BSE_Coefficient_a3": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/BSEintegrator.h",
+    "lines": [
+      57,
+      60
+    ]
+  },
+  "BSE_Coefficient_a4": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/BSEintegrator.h",
+    "lines": [
+      61,
+      64
+    ]
+  },
+  "BSE_Coefficient_a5": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/BSEintegrator.h",
+    "lines": [
+      65,
+      68
+    ]
+  },
+  "BSE_Coefficient_a6": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/BSEintegrator.h",
+    "lines": [
+      69,
+      72
+    ]
+  },
+  "BSE_Coefficient_a7": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/BSEintegrator.h",
+    "lines": [
+      73,
+      76
+    ]
+  },
+  "BSE_Coefficient_a8": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/BSEintegrator.h",
+    "lines": [
+      77,
+      80
+    ]
+  },
+  "BSE_Coefficient_a9": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/BSEintegrator.h",
+    "lines": [
+      81,
+      84
+    ]
+  },
+  "BSE_Coefficient_a10": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/BSEintegrator.h",
+    "lines": [
+      85,
+      88
+    ]
+  },
+  "BSE_Property": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/BSEintegrator.h",
+    "lines": [
+      96,
+      114
+    ]
+  },
+  "BSEtimes": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/BSEintegrator.h",
+    "lines": [
+      119,
+      123
+    ]
+  },
+  "Tbgb": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/BSEintegrator.h",
+    "lines": [
+      126,
+      151
+    ]
+  },
+  "Thook": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/BSEintegrator.h",
+    "lines": [
+      154,
+      178
+    ]
+  },
+  "Tms": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/BSEintegrator.h",
+    "lines": [
+      181,
+      202
+    ]
+  },
+  "Property": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      34,
+      250
+    ]
+  },
+  "Time_object": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      254,
+      270
+    ]
+  },
+  "Localtime": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      272,
+      307
+    ]
+  },
+  "Worldtime": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      309,
+      339
+    ]
+  },
+  "Timestep": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      341,
+      410
+    ]
+  },
+  "NextOutput": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      412,
+      449
+    ]
+  },
+  "TableProperty": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      452,
+      478
+    ]
+  },
+  "R_object": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      484,
+      501
+    ]
+  },
+  "Radius": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      503,
+      549
+    ]
+  },
+  "Mass_obejct": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      554,
+      570
+    ]
+  },
+  "Mass": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      572,
+      609
+    ]
+  },
+  "MHE": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      611,
+      639
+    ]
+  },
+  "MCO": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      641,
+      674
+    ]
+  },
+  "Phase": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      677,
+      716
+    ]
+  },
+  "Luminosity": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      717,
+      751
+    ]
+  },
+  "OptionalTableProperty": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      755,
+      790
+    ]
+  },
+  "Inertia": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      793,
+      857
+    ]
+  },
+  "CoreRadius": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      860,
+      874
+    ]
+  },
+  "RHE": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      876,
+      914
+    ]
+  },
+  "RCO": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      916,
+      954
+    ]
+  },
+  "SurfaceAbundanceTable": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      957,
+      962
+    ]
+  },
+  "Hsup": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      965,
+      988
+    ]
+  },
+  "HEsup": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      990,
+      1013
+    ]
+  },
+  "Csup": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1015,
+      1038
+    ]
+  },
+  "Nsup": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1040,
+      1063
+    ]
+  },
+  "Osup": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1065,
+      1088
+    ]
+  },
+  "ConvectiveTable": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1091,
+      1096
+    ]
+  },
+  "Qconv": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1099,
+      1129
+    ]
+  },
+  "Tconv": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1131,
+      1154
+    ]
+  },
+  "Depthconv": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1156,
+      1185
+    ]
+  },
+  "Bmag": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1190,
+      1213
+    ]
+  },
+  "OmegaRem": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1215,
+      1239
+    ]
+  },
+  "RemnantType": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1241,
+      1270
+    ]
+  },
+  "dMcumul_binary": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1273,
+      1303
+    ]
+  },
+  "dMcumul_RLO": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1306,
+      1335
+    ]
+  },
+  "dMcumulacc_wind": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1339,
+      1364
+    ]
+  },
+  "AngMomSpin": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1367,
+      1394
+    ]
+  },
+  "Derivative_Property": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1403,
+      1410
+    ]
+  },
+  "dMdt": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1412,
+      1437
+    ]
+  },
+  "dMHEdt": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1439,
+      1464
+    ]
+  },
+  "dMCOdt": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1466,
+      1491
+    ]
+  },
+  "dRdt": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1493,
+      1518
+    ]
+  },
+  "Derived_Property": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1523,
+      1546
+    ]
+  },
+  "Temperature": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1547,
+      1572
+    ]
+  },
+  "Rs": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1574,
+      1595
+    ]
+  },
+  "OmegaSpin": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1598,
+      1623
+    ]
+  },
+  "Spin": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1626,
+      1659
+    ]
+  },
+  "Xspin": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1662,
+      1685
+    ]
+  },
+  "JIT_Property": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1691,
+      1759
+    ]
+  },
+  "Lambda": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1761,
+      1825
+    ]
+  },
+  "Ebind": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1828,
+      1852
+    ]
+  },
+  "PhaseBSE": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1855,
+      1873
+    ]
+  },
+  "Zams": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1876,
+      1898
+    ]
+  },
+  "Zmet": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1901,
+      1925
+    ]
+  },
+  "Event": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1928,
+      1948
+    ]
+  },
+  "dMRLOdt": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1951,
+      1970
+    ]
+  },
+  "dMaccwinddt": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1972,
+      1990
+    ]
+  },
+  "NSsalpha": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      1996,
+      2020
+    ]
+  },
+  "supernova": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/procs/supernova/supernova.h",
+    "lines": [
+      29,
+      198
+    ]
+  },
+  "Star_auxiliary": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/star.h",
+    "lines": [
+      2105,
+      2107
+    ]
+  },
+  "Empty": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/star.h",
+    "lines": [
+      2109,
+      2111
+    ]
+  },
+  "HobbsPure": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/procs/kicks/hobbs.h",
+    "lines": [
+      9,
+      26
+    ]
+  },
+  "Hobbs": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/procs/kicks/hobbs.h",
+    "lines": [
+      29,
+      54
+    ]
+  },
+  "Unified": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/procs/kicks/unified.h",
+    "lines": [
+      8,
+      26
+    ]
+  },
+  "Kicks": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/procs/kicks/kicks.h",
+    "lines": [
+      20,
+      88
+    ]
+  },
+  "CC15": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/procs/kicks/specialkicks.h",
+    "lines": [
+      11,
+      33
+    ]
+  },
+  "EC15CC265": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/procs/kicks/specialkicks.h",
+    "lines": [
+      37,
+      63
+    ]
+  },
+  "ECUS30": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/procs/kicks/specialkicks.h",
+    "lines": [
+      67,
+      89
+    ]
+  },
+  "Zeros": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/procs/kicks/zeros.h",
+    "lines": [
+      9,
+      28
+    ]
+  },
+  "PairInstability": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/procs/pairinstability/pairinstability.h",
+    "lines": [
+      29,
+      96
+    ]
+  },
+  "compactness": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/procs/supernova/compactness.h",
+    "lines": [
+      15,
+      57
+    ]
+  },
+  "rapid": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/procs/supernova/rapid.h",
+    "lines": [
+      15,
+      29
+    ]
+  },
+  "rapid_gauNS": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/procs/supernova/rapid.h",
+    "lines": [
+      32,
+      47
+    ]
+  },
+  "delayed": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/procs/supernova/delayed.h",
+    "lines": [
+      15,
+      30
+    ]
+  },
+  "delayed_gauNS": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/procs/supernova/delayed.h",
+    "lines": [
+      33,
+      48
+    ]
+  },
+  "PisnON": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/procs/supernova/supernova.h",
+    "lines": [
+      202,
+      211
+    ]
+  },
+  "PisnOFF": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/procs/supernova/supernova.h",
+    "lines": [
+      214,
+      223
+    ]
+  },
+  "NeutrinoMassLossOFF": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/procs/supernova/supernova.h",
+    "lines": [
+      226,
+      232
+    ]
+  },
+  "NSfromGau": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/procs/supernova/supernova.h",
+    "lines": [
+      235,
+      250
+    ]
+  },
+  "directcollapse": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/procs/supernova/directcollapse.h",
+    "lines": [
+      15,
+      30
+    ]
+  },
+  "DeathMatrix": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/procs/supernova/deathmatrix.h",
+    "lines": [
+      15,
+      46
+    ]
+  },
+  "PIMapelli20": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/procs/pairinstability/pimapelli20.h",
+    "lines": [
+      9,
+      35
+    ]
+  },
+  "PIIorio22": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/procs/pairinstability/piiorio22.h",
+    "lines": [
+      9,
+      36
+    ]
+  },
+  "PIIorio22Limited": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/procs/pairinstability/piiorio22.h",
+    "lines": [
+      40,
+      62
+    ]
+  },
+  "PIFarmer19": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/procs/pairinstability/pifarmer19.h",
+    "lines": [
+      9,
+      29
+    ]
+  },
+  "PIDisabled": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/procs/pairinstability/pairinstability.h",
+    "lines": [
+      99,
+      115
+    ]
+  },
+  "NeutrinoMassLoss": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/procs/neutrinomassloss/neutrinomassloss.h",
+    "lines": [
+      21,
+      76
+    ]
+  },
+  "NMLDisabled": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/procs/neutrinomassloss/neutrinomassloss.h",
+    "lines": [
+      79,
+      97
+    ]
+  },
+  "NMLLattimer89": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/procs/neutrinomassloss/nmllattimer89.h",
+    "lines": [
+      10,
+      28
+    ]
+  },
+  "Lambda_Nanjing": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/lambdas/lambda_nanjing.h",
+    "lines": [
+      17,
+      89
+    ]
+  },
+  "Lambda_Nanjing_interpolator": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/lambdas/lambda_nanjing.h",
+    "lines": [
+      93,
+      117
+    ]
+  },
+  "Lambda_Klencki": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/lambdas/lambda_klencki21.h",
+    "lines": [
+      21,
+      49
+    ]
+  },
+  "Lambda_Klencki_interpolator": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/lambdas/lambda_klencki21.h",
+    "lines": [
+      54,
+      83
+    ]
+  },
+  "Lambda_Base": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/lambdas/lambda_base.h",
+    "lines": [
+      14,
+      27
+    ]
+  },
+  "LoadDataset": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/hdf5_interpreter/include/LoadDataset.h",
+    "lines": [
+      11,
+      39
+    ]
+  },
+  "Command": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/hdf5_interpreter/include/command.h",
+    "lines": [
+      11,
+      25
+    ]
+  },
+  "LoadSStars": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/hdf5_interpreter/include/LoadSStars.h",
+    "lines": [
+      12,
+      120
+    ]
+  },
+  "CommandProcessor": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/hdf5_interpreter/include/processor.h",
+    "lines": [
+      16,
+      136
+    ]
+  },
+  "Plot": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/hdf5_interpreter/include/Plot.h",
+    "lines": [
+      10,
+      25
+    ]
+  },
+  "Header": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/hdf5_interpreter/include/Query.h",
+    "lines": [
+      11,
+      21
+    ]
+  },
+  "Dataset": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/hdf5_interpreter/include/Query.h",
+    "lines": [
+      23,
+      33
+    ]
+  },
+  "QuitCommand": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/hdf5_interpreter/include/Quit.h",
+    "lines": [
+      10,
+      22
+    ]
+  },
+  "plot_matplotlib": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/hdf5_interpreter/python_cxx/plot_matplotlib.h",
+    "lines": [
+      48,
+      48
+    ]
+  }
+}

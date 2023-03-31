@@ -1,0 +1,254 @@
+{
+  "num_entry": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/params.h",
+    "lines": [
+      349,
+      349
+    ]
+  },
+  "str_entry": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/params.h",
+    "lines": [
+      350,
+      350
+    ]
+  },
+  "bool_entry": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/params.h",
+    "lines": [
+      351,
+      351
+    ]
+  },
+  "map_num": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/params.h",
+    "lines": [
+      352,
+      352
+    ]
+  },
+  "map_str": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/params.h",
+    "lines": [
+      353,
+      353
+    ]
+  },
+  "map_bool": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/params.h",
+    "lines": [
+      354,
+      354
+    ]
+  },
+  "OUTPUTMAP": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/lookup_and_phases.h",
+    "lines": [
+      190,
+      190
+    ]
+  },
+  "_INPAIR": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/lookup_and_phases.h",
+    "lines": [
+      201,
+      201
+    ]
+  },
+  "INPUTMAPBIN_NPARAM": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/lookup_and_phases.h",
+    "lines": [
+      202,
+      202
+    ]
+  },
+  "INPUTMAPBIN": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/lookup_and_phases.h",
+    "lines": [
+      203,
+      203
+    ]
+  },
+  "WINDSMAP": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/lookup_and_phases.h",
+    "lines": [
+      211,
+      211
+    ]
+  },
+  "RLMAP": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/lookup_and_phases.h",
+    "lines": [
+      215,
+      215
+    ]
+  },
+  "TIDESMAP": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/lookup_and_phases.h",
+    "lines": [
+      213,
+      213
+    ]
+  },
+  "GWMAP": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/lookup_and_phases.h",
+    "lines": [
+      214,
+      214
+    ]
+  },
+  "MIXMAP": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/lookup_and_phases.h",
+    "lines": [
+      216,
+      216
+    ]
+  },
+  "SNKMAP": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/lookup_and_phases.h",
+    "lines": [
+      217,
+      217
+    ]
+  },
+  "CEMAP": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/lookup_and_phases.h",
+    "lines": [
+      218,
+      218
+    ]
+  },
+  "WINDSMAP_NAME": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/lookup_and_phases.h",
+    "lines": [
+      229,
+      229
+    ]
+  },
+  "TIDESMAP_NAME": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/lookup_and_phases.h",
+    "lines": [
+      231,
+      231
+    ]
+  },
+  "GW_NAME": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/lookup_and_phases.h",
+    "lines": [
+      233,
+      233
+    ]
+  },
+  "RL_NAME": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/lookup_and_phases.h",
+    "lines": [
+      235,
+      235
+    ]
+  },
+  "MIX_NAME": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/lookup_and_phases.h",
+    "lines": [
+      237,
+      237
+    ]
+  },
+  "SNK_NAME": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/lookup_and_phases.h",
+    "lines": [
+      239,
+      239
+    ]
+  },
+  "CE_NAME": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/lookup_and_phases.h",
+    "lines": [
+      241,
+      241
+    ]
+  },
+  "FILEMAP": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/lookup_and_phases.h",
+    "lines": [
+      245,
+      245
+    ]
+  },
+  "evolution": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/utilities.h",
+    "lines": [
+      102,
+      102
+    ]
+  },
+  "jump_convergence": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/utilities.h",
+    "lines": [
+      107,
+      107
+    ]
+  },
+  "sn_explosion": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/utilities.h",
+    "lines": [
+      113,
+      113
+    ]
+  },
+  "rlo": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/utilities.h",
+    "lines": [
+      119,
+      119
+    ]
+  },
+  "bse_evolution": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/general/utils/utilities.h",
+    "lines": [
+      124,
+      124
+    ]
+  },
+  "*accretor)": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/qcrit.h",
+    "lines": [
+      65,
+      65
+    ]
+  },
+  "QCRITMAP": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/qcrit.h",
+    "lines": [
+      66,
+      66
+    ]
+  },
+  "_PrintMap": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/property.h",
+    "lines": [
+      38,
+      38
+    ]
+  },
+  "collision_outcome": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/binstar/procs/Collision.h",
+    "lines": [
+      44,
+      44
+    ]
+  },
+  "coeff_status": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/include/star/lambdas/lambda_nanjing.h",
+    "lines": [
+      44,
+      44
+    ]
+  },
+  "MapType": {
+    "file": "/home/jake/Downloads/sevndevel-SEVN/hdf5_interpreter/include/processor.h",
+    "lines": [
+      20,
+      20
+    ]
+  }
+}
